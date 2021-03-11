@@ -16,6 +16,11 @@ public class MyJavaClass {
         return input.length;
     }
 
+    public static void varargsFunction(Object input) {
+        System.out.println("Called varargsFunction (single input) with " + input + ".");
+            System.out.println("  Object :" + input);
+    }
+
     public static void varargsFunction(Object... input) {
         System.out.println("Called varargsFunction with " + input.length + " inputs.");
         for (int i = 0; i < input.length; i++) {
