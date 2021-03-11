@@ -9,6 +9,11 @@ class VarArgsTest extends Specification {
   sequential
 
   "VarArgs" should {
+    "accept singleton or array values" in {
+      MyJavaClass.arrayFunction(Array[AnyRef]("foo", Int.box(1))) mustEqual 2
+      MyJavaClass.arrayFunction("foo") mustEqual 1
+    }
+
     "work with objects" in {
       val objects: Array[AnyRef] = Array[AnyRef]("foo", new Integer(1))
 
