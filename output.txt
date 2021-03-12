@@ -1,0 +1,2286 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:scala-varags >----------------------
+[INFO] Building scala-varags 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ scala-varags ---
+[INFO] Deleting /opt/devel/src/scala-varags/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ scala-varags ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.1:add-source (scala-compile-first) @ scala-varags ---
+[INFO] Add Source directory: /opt/devel/src/scala-varags/src/main/scala
+[INFO] Add Test Source directory: /opt/devel/src/scala-varags/src/test/scala
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.1:compile (scala-compile-first) @ scala-varags ---
+[WARNING]  Expected all dependencies to require Scala version: 2.11.7
+[WARNING]  org.example:scala-varags:1.0-SNAPSHOT requires scala version: 2.11.7
+[WARNING]  org.specs2:specs2_2.11:2.3.13 requires scala version: 2.11.1
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /opt/devel/src/scala-varags/src/main/java:-1: info: compiling
+[INFO] Compiling 1 source files to /opt/devel/src/scala-varags/target/classes at 1615494552555
+[INFO] 
+[INFO] [[symbol layout at end of parser]]
+[INFO] * class Unit
+[INFO] * package scala (final)
+[INFO] 
+[INFO] [[symbol layout at end of namer]]
+[INFO] * class MyJavaClass
+[INFO]   class Unit
+[INFO] * object MyJavaClass
+[INFO] * package jnh5y (final)
+[INFO]   package scala (final)
+[INFO] * value <import>
+[INFO] 
+[INFO] [[symbol layout at end of packageobjects]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of typer]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of patmat]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of superaccessors]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of extmethods]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of pickler]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of refchecks]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of uncurry]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of tailcalls]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of specialize]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of explicitouter]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of erasure]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of posterasure]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of lazyvals]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of lambdalift]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of constructors]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of flatten]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of mixin]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of cleanup]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of delambdafy]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of icode]]
+[INFO]   class MyJavaClass
+[INFO] F class Unit [+abstract +final]
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of jvm]]
+[INFO]   class MyJavaClass
+[INFO]   class Unit (final abstract)
+[INFO]   object MyJavaClass
+[INFO]   package jnh5y (final)
+[INFO]   package scala (final)
+[INFO]   value <import>
+[INFO] prepare-compile in 0 s
+[INFO] compile in 1 s
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ scala-varags ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /opt/devel/src/scala-varags/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ scala-varags ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /opt/devel/src/scala-varags/src/test/resources
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.1:testCompile (scala-test-compile) @ scala-varags ---
+[WARNING]  Expected all dependencies to require Scala version: 2.11.7
+[WARNING]  org.example:scala-varags:1.0-SNAPSHOT requires scala version: 2.11.7
+[WARNING]  org.specs2:specs2_2.11:2.3.13 requires scala version: 2.11.1
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /opt/devel/src/scala-varags/src/test/java:-1: info: compiling
+[INFO] /opt/devel/src/scala-varags/src/test/scala:-1: info: compiling
+[INFO] Compiling 1 source files to /opt/devel/src/scala-varags/target/test-classes at 1615494554357
+[INFO] 
+[INFO] [[symbol layout at end of parser]]
+[INFO] 
+[INFO] 
+[INFO] [[symbol layout at end of namer]]
+[INFO] * class VarArgsTest
+[INFO] * package jnh5y (final)
+[INFO] * value <import>
+[INFO] * value <import>
+[INFO] * value <import>
+[INFO] 
+[INFO] [[symbol layout at end of packageobjects]]
+[INFO]   class VarArgsTest
+[INFO]   package jnh5y (final)
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO] 
+[INFO] [[symbol layout at end of typer]]
+[INFO] * class Any (abstract)
+[INFO] * class Array (final)
+[INFO] * class Int (final abstract)
+[INFO] * class Specification (abstract)
+[INFO] *     constructor Specification
+[INFO]   class VarArgsTest
+[INFO] *     constructor VarArgsTest
+[INFO] *     method myBadFunction
+[INFO] *     value <local VarArgsTest>
+[INFO] *         value integers
+[INFO] *         value objects
+[INFO] * method apply
+[INFO] * method apply
+[INFO] * method arrayFunction (<static>)
+[INFO] * method arrayFunction (<static>)
+[INFO] * method arrayFunctionInteger (<static>)
+[INFO] * method box
+[INFO] * method described (implicit)
+[INFO] * method in
+[INFO] * method inExample (implicit)
+[INFO] * method sequential
+[INFO] * method should
+[INFO] * method varargsFunction (<static>)
+[INFO] * method varargsFunctionInteger (<static>)
+[INFO] * object Array
+[INFO] * object ClassTag
+[INFO] * object Int
+[INFO] * object MyJavaClass
+[INFO] * object None (case)
+[INFO] * package com (final)
+[INFO] * package github (final)
+[INFO] * package java (final)
+[INFO] *     class Integer (final)
+[INFO] *         constructor Integer
+[INFO] *     class Object
+[INFO] *     package lang (final)
+[INFO]   package jnh5y (final)
+[INFO] * package junit (final)
+[INFO] * package matcher (final)
+[INFO] *     class MatchSuccess (case)
+[INFO] *     method matchResultAsResult (implicit)
+[INFO] *     method mustEqual
+[INFO] *     method theValue (implicit)
+[INFO] *     object MatchResult
+[INFO] *     trait MatchResult (abstract)
+[INFO] *     value ok (<stable> <accessor> lazy)
+[INFO] * package mutable (final)
+[INFO] * package org (final)
+[INFO] * package runner (final)
+[INFO] * package runner (final)
+[INFO] * package scala (final)
+[INFO] * package specs2 (final)
+[INFO] * trait ClassTag (abstract)
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO] * value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of patmat]]
+[INFO]   class Any (abstract)
+[INFO]   class Array (final)
+[INFO]   class Int (final abstract)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           value integers
+[INFO]           value objects
+[INFO]   method apply
+[INFO]   method apply
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method box
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object Array
+[INFO]   object ClassTag
+[INFO]   object Int
+[INFO]   object MyJavaClass
+[INFO]   object None (case)
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package java (final)
+[INFO]       class Integer (final)
+[INFO]           constructor Integer
+[INFO]       class Object
+[INFO]       package lang (final)
+[INFO]   package jnh5y (final)
+[INFO]   package junit (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package mutable (final)
+[INFO]   package org (final)
+[INFO]   package runner (final)
+[INFO]   package runner (final)
+[INFO]   package scala (final)
+[INFO]   package specs2 (final)
+[INFO]   trait ClassTag (abstract)
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of superaccessors]]
+[INFO]   class Any (abstract)
+[INFO]   class Array (final)
+[INFO]   class Int (final abstract)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           value integers
+[INFO]           value objects
+[INFO]   method apply
+[INFO]   method apply
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method box
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object Array
+[INFO]   object ClassTag
+[INFO]   object Int
+[INFO]   object MyJavaClass
+[INFO]   object None (case)
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package java (final)
+[INFO]       class Integer (final)
+[INFO]           constructor Integer
+[INFO]       class Object
+[INFO]       package lang (final)
+[INFO]   package jnh5y (final)
+[INFO]   package junit (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package mutable (final)
+[INFO]   package org (final)
+[INFO]   package runner (final)
+[INFO]   package runner (final)
+[INFO]   package scala (final)
+[INFO]   package specs2 (final)
+[INFO]   trait ClassTag (abstract)
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of extmethods]]
+[INFO]   class Any (abstract)
+[INFO]   class Array (final)
+[INFO]   class Int (final abstract)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           value integers
+[INFO]           value objects
+[INFO]   method apply
+[INFO]   method apply
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method box
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object Array
+[INFO]   object ClassTag
+[INFO]   object Int
+[INFO]   object MyJavaClass
+[INFO]   object None (case)
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package java (final)
+[INFO]       class Integer (final)
+[INFO]           constructor Integer
+[INFO]       class Object
+[INFO]       package lang (final)
+[INFO]   package jnh5y (final)
+[INFO]   package junit (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package mutable (final)
+[INFO]   package org (final)
+[INFO]   package runner (final)
+[INFO]   package runner (final)
+[INFO]   package scala (final)
+[INFO]   package specs2 (final)
+[INFO]   trait ClassTag (abstract)
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of pickler]]
+[INFO]   class Any (abstract)
+[INFO]   class Array (final)
+[INFO]   class Int (final abstract)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           value integers
+[INFO]           value objects
+[INFO]   method apply
+[INFO]   method apply
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method box
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object Array
+[INFO]   object ClassTag
+[INFO]   object Int
+[INFO]   object MyJavaClass
+[INFO]   object None (case)
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package java (final)
+[INFO]       class Integer (final)
+[INFO]           constructor Integer
+[INFO]       class Object
+[INFO]       package lang (final)
+[INFO]   package jnh5y (final)
+[INFO]   package junit (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package mutable (final)
+[INFO]   package org (final)
+[INFO]   package runner (final)
+[INFO]   package runner (final)
+[INFO]   package scala (final)
+[INFO]   package specs2 (final)
+[INFO]   trait ClassTag (abstract)
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value <import>
+[INFO]   value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of refchecks]]
+[INFO]   class Any (abstract)
+[INFO]   class Array (final)
+[INFO]   class Int (final abstract)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           value integers
+[INFO]           value objects
+[INFO]   method apply
+[INFO]   method apply
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method box
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object Array
+[INFO]   object ClassTag
+[INFO]   object Int
+[INFO]   object MyJavaClass
+[INFO]   object None (case)
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package java (final)
+[INFO]       class Integer (final)
+[INFO]           constructor Integer
+[INFO]       class Object
+[INFO]       package lang (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package mutable (final)
+[INFO]   package org (final)
+[INFO]   package scala (final)
+[INFO]   package specs2 (final)
+[INFO]   trait ClassTag (abstract)
+[INFO]   value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] !!! Heading from refchecks to uncurry, 6 symbols vanished:
+[INFO] ( 1) package junit -> package org -> package <root>
+[INFO]     Select: org.junit
+[INFO] ( 2) package runner -> package junit -> package org -> ...
+[INFO]     Select: org.junit.runner
+[INFO] ( 3) package runner -> package specs2 -> package org -> ...
+[INFO]     Select: org.specs2.runner
+[INFO] ( 4) value <import>
+[INFO]     Import: import org.specs2.mutable.Specification
+[INFO] ( 5) value <import>
+[INFO]     Import: import org.junit.runner.RunWith
+[INFO] ( 6) value <import>
+[INFO]     Import: import org.specs2.runner.JUnitRunner
+[INFO] 
+[INFO] [[symbol layout at end of uncurry]]
+[INFO] * class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO] *         <$anon: () => org.specs2.specification.Example> (final <synthetic>)
+[INFO] *             constructor $anonfun
+[INFO] *             method apply (final)
+[INFO] *                 <$anon: () => org.specs2.matcher.MatchResult[Any]> (final <synthetic>)
+[INFO] *                     constructor $anonfun
+[INFO] *                     method apply (final)
+[INFO] *                         <$anon: () => Int> (final <synthetic>)
+[INFO] *                             constructor $anonfun
+[INFO] *                             method apply (final)
+[INFO] *                             value <local $anonfun>
+[INFO] *                         <$anon: () => Object> (final <synthetic>)
+[INFO] *                             constructor $anonfun
+[INFO] *                             method apply (final)
+[INFO] *                             value <local $anonfun>
+[INFO] *                         <$anon: () => Object> (final <synthetic>)
+[INFO] *                             constructor $anonfun
+[INFO] *                             method apply (final)
+[INFO] *                             value <local $anonfun>
+[INFO] *                         <$anon: () => Int> (final <synthetic>)
+[INFO] *                             constructor $anonfun
+[INFO] *                             method apply (final)
+[INFO] *                             value <local $anonfun>
+[INFO] *                     value <local $anonfun>
+[INFO] *                 <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> (final <synthetic>)
+[INFO] *                     constructor $anonfun
+[INFO] *                     method apply (final)
+[INFO] O                         value integers [Owner was value <local VarArgsTest>, now method apply]
+[INFO] *                     value <local $anonfun>
+[INFO] *                 <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> (final <synthetic>)
+[INFO] *                     constructor $anonfun
+[INFO] *                     method apply (final)
+[INFO] O                         value objects [Owner was value <local VarArgsTest>, now method apply]
+[INFO] *                     value <local $anonfun>
+[INFO] *             value <local $anonfun>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO] * package scala (final)
+[INFO] *     class AbstractFunction0 (abstract)
+[INFO] *         constructor AbstractFunction0
+[INFO]       class Any (abstract)
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO] *     method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object None (case)
+[INFO] *     object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO] *     trait Function0 (abstract)
+[INFO] *     trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] !!! Heading from uncurry to tailcalls, 5 symbols vanished:
+[INFO] ( 1) package java -> package <root>
+[INFO]       This: java.this
+[INFO] ( 2) package lang -> package java -> package <root>
+[INFO]     Select: java.this.lang
+[INFO] ( 3) package mutable -> package specs2 -> package org -> ...
+[INFO]     Select: org.specs2.mutable
+[INFO] ( 4) package org -> package <root>
+[INFO]      Ident: org
+[INFO] ( 5) package specs2 -> package org -> package <root>
+[INFO]     Select: org.specs2
+[INFO] 
+[INFO] [[symbol layout at end of tailcalls]]
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           <$anon: () => org.specs2.specification.Example> (final <synthetic>)
+[INFO]               constructor $anonfun
+[INFO]               method apply (final)
+[INFO]                   <$anon: () => org.specs2.matcher.MatchResult[Any]> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                       method apply (final)
+[INFO]                           <$anon: () => Int> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                               method apply (final)
+[INFO]                               value <local $anonfun>
+[INFO]                           <$anon: () => Object> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                               method apply (final)
+[INFO]                               value <local $anonfun>
+[INFO]                           <$anon: () => Object> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                               method apply (final)
+[INFO]                               value <local $anonfun>
+[INFO]                           <$anon: () => Int> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                               method apply (final)
+[INFO]                               value <local $anonfun>
+[INFO]                       value <local $anonfun>
+[INFO]                   <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                       method apply (final)
+[INFO]                           value integers
+[INFO]                       value <local $anonfun>
+[INFO]                   <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                       method apply (final)
+[INFO]                           value objects
+[INFO]                       value <local $anonfun>
+[INFO]               value <local $anonfun>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Any (abstract)
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object None (case)
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of specialize]]
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           <$anon: () => org.specs2.specification.Example> (final <synthetic>)
+[INFO]               constructor $anonfun
+[INFO]               method apply (final)
+[INFO]                   <$anon: () => org.specs2.matcher.MatchResult[Any]> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                       method apply (final)
+[INFO]                           <$anon: () => Int> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                               method apply (final)
+[INFO]                               value <local $anonfun>
+[INFO]                           <$anon: () => Object> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                               method apply (final)
+[INFO]                               value <local $anonfun>
+[INFO]                           <$anon: () => Object> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                               method apply (final)
+[INFO]                               value <local $anonfun>
+[INFO]                           <$anon: () => Int> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                               method apply (final)
+[INFO]                               value <local $anonfun>
+[INFO]                       value <local $anonfun>
+[INFO]                   <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                       method apply (final)
+[INFO]                           value integers
+[INFO]                       value <local $anonfun>
+[INFO]                   <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                       method apply (final)
+[INFO]                           value objects
+[INFO]                       value <local $anonfun>
+[INFO]               value <local $anonfun>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Any (abstract)
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object None (case)
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of explicitouter]]
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           <$anon: () => org.specs2.specification.Example> (final <synthetic>)
+[INFO]               constructor $anonfun
+[INFO] *                 value $outer
+[INFO]               method apply (final)
+[INFO]                   <$anon: () => org.specs2.matcher.MatchResult[Any]> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO] *                         value $outer
+[INFO]                       method apply (final)
+[INFO]                           <$anon: () => Int> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO] *                                 value $outer
+[INFO]                               method apply (final)
+[INFO] *                             value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO] *                             value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: () => Object> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO] *                                 value $outer
+[INFO]                               method apply (final)
+[INFO] *                             value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO] *                             value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: () => Object> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO] *                                 value $outer
+[INFO]                               method apply (final)
+[INFO] *                             value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO] *                             value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: () => Int> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO] *                                 value $outer
+[INFO]                               method apply (final)
+[INFO] *                             value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO] *                             value $outer (<synthetic> <stable> <artifact>)
+[INFO] *                     value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO] *                     value $outer (<synthetic> <stable> <artifact>)
+[INFO]                   <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO] *                         value $outer
+[INFO]                       method apply (final)
+[INFO]                           value integers
+[INFO] *                     value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO] *                     value $outer (<synthetic> <stable> <artifact>)
+[INFO]                   <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO] *                         value $outer
+[INFO]                       method apply (final)
+[INFO]                           value objects
+[INFO] *                     value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO] *                     value $outer (<synthetic> <stable> <artifact>)
+[INFO] *             value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO] *             value $outer (<synthetic> <stable> <artifact>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Any (abstract)
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object None (case)
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of erasure]]
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO] *     method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           <$anon: Function0> (final <synthetic>)
+[INFO]               constructor $anonfun
+[INFO]                   value $outer
+[INFO] *             method apply (final <bridge> <artifact>)
+[INFO]               method apply (final)
+[INFO]                   <$anon: Function0> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                           value $outer
+[INFO] *                     method apply (final <bridge> <artifact>)
+[INFO]                       method apply (final)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final)
+[INFO] *                             method apply (final <bridge> <artifact>)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO] *                             method apply (final <bridge> <artifact>)
+[INFO]                               method apply (final)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO]                       value $outer (<synthetic> <stable> <artifact>)
+[INFO]                   <$anon: Function0> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                           value $outer
+[INFO]                       method apply (final)
+[INFO]                           value integers
+[INFO] *                     method apply (final <bridge> <artifact>)
+[INFO]                       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO]                       value $outer (<synthetic> <stable> <artifact>)
+[INFO]                   <$anon: Function0> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                           value $outer
+[INFO] *                     method apply (final <bridge> <artifact>)
+[INFO]                       method apply (final)
+[INFO]                           value objects
+[INFO]                       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO]                       value $outer (<synthetic> <stable> <artifact>)
+[INFO]               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO]               value $outer (<synthetic> <stable> <artifact>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO]   package scala (final)
+[INFO] 
+[INFO] !!! Heading from erasure to posterasure, 2 symbols vanished:
+[INFO] ( 1) class Any -> package scala -> package <root>
+[INFO]   TypeTree: Any
+[INFO] ( 2) object None -> package scala -> package <root>
+[INFO]   TypeTree: None.type
+[INFO] 
+[INFO] [[symbol layout at end of posterasure]]
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           <$anon: Function0> (final <synthetic>)
+[INFO]               constructor $anonfun
+[INFO]                   value $outer
+[INFO]               method apply (final)
+[INFO]                   <$anon: Function0> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                           value $outer
+[INFO]                       method apply (final)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final)
+[INFO]                               method apply (final <bridge> <artifact>)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final <bridge> <artifact>)
+[INFO]                               method apply (final)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                       method apply (final <bridge> <artifact>)
+[INFO]                       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO]                       value $outer (<synthetic> <stable> <artifact>)
+[INFO]                   <$anon: Function0> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                           value $outer
+[INFO]                       method apply (final <bridge> <artifact>)
+[INFO]                       method apply (final)
+[INFO]                           value integers
+[INFO]                       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO]                       value $outer (<synthetic> <stable> <artifact>)
+[INFO]                   <$anon: Function0> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                           value $outer
+[INFO]                       method apply (final <bridge> <artifact>)
+[INFO]                       method apply (final)
+[INFO]                           value objects
+[INFO]                       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO]                       value $outer (<synthetic> <stable> <artifact>)
+[INFO]               method apply (final <bridge> <artifact>)
+[INFO]               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO]               value $outer (<synthetic> <stable> <artifact>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of lazyvals]]
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]           <$anon: Function0> (final <synthetic>)
+[INFO]               constructor $anonfun
+[INFO]                   value $outer
+[INFO]               method apply (final)
+[INFO]                   <$anon: Function0> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                           value $outer
+[INFO]                       method apply (final <bridge> <artifact>)
+[INFO]                       method apply (final)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final <bridge> <artifact>)
+[INFO]                               method apply (final)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                           <$anon: Function0> (final <synthetic>)
+[INFO]                               constructor $anonfun
+[INFO]                                   value $outer
+[INFO]                               method apply (final)
+[INFO]                               method apply (final <bridge> <artifact>)
+[INFO]                               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                               value <local $anonfun>
+[INFO]                               value $outer (<synthetic> <stable> <artifact>)
+[INFO]                       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO]                       value $outer (<synthetic> <stable> <artifact>)
+[INFO]                   <$anon: Function0> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                           value $outer
+[INFO]                       method apply (final)
+[INFO]                           value integers
+[INFO]                       method apply (final <bridge> <artifact>)
+[INFO]                       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO]                       value $outer (<synthetic> <stable> <artifact>)
+[INFO]                   <$anon: Function0> (final <synthetic>)
+[INFO]                       constructor $anonfun
+[INFO]                           value $outer
+[INFO]                       method apply (final <bridge> <artifact>)
+[INFO]                       method apply (final)
+[INFO]                           value objects
+[INFO]                       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                       value <local $anonfun>
+[INFO]                       value $outer (<synthetic> <stable> <artifact>)
+[INFO]               method apply (final <bridge> <artifact>)
+[INFO]               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO]               value $outer (<synthetic> <stable> <artifact>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO]   package scala (final)
+[INFO] 
+[INFO] [[symbol layout at end of lambdalift]]
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO] O     <$anon: Function0> [Owner was value <local VarArgsTest>, now class VarArgsTest] (final <synthetic>)
+[INFO] O         <$anon: Function0> [Owner was method apply, now <$anon: Function0>] (final <synthetic>)
+[INFO] O             <$anon: Function0> [Owner was method apply, now <$anon: Function0>] (final <synthetic>)
+[INFO]                   constructor $anonfun$apply$1
+[INFO]                       value $outer
+[INFO]                   method apply (final)
+[INFO]                   method apply (final <bridge> <artifact>)
+[INFO]                   value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                   value <local $anonfun>
+[INFO]                   value $outer (<synthetic> <stable> <artifact>)
+[INFO] O             <$anon: Function0> [Owner was method apply, now <$anon: Function0>] (final <synthetic>)
+[INFO]                   constructor $anonfun$apply$2
+[INFO]                       value $outer
+[INFO]                   method apply (final)
+[INFO]                   method apply (final <bridge> <artifact>)
+[INFO]                   value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                   value <local $anonfun>
+[INFO]                   value $outer (<synthetic> <stable> <artifact>)
+[INFO] O             <$anon: Function0> [Owner was method apply, now <$anon: Function0>] (final <synthetic>)
+[INFO]                   constructor $anonfun$apply$4
+[INFO]                       value $outer
+[INFO]                   method apply (final)
+[INFO]                   value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                   value <local $anonfun>
+[INFO]                   value $outer (<synthetic> <stable> <artifact>)
+[INFO] O             <$anon: Function0> [Owner was method apply, now <$anon: Function0>] (final <synthetic>)
+[INFO]                   constructor $anonfun$apply$5
+[INFO]                       value $outer
+[INFO]                   method apply (final)
+[INFO]                   value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]                   value <local $anonfun>
+[INFO]                   value $outer (<synthetic> <stable> <artifact>)
+[INFO]               constructor $anonfun$apply$3
+[INFO]                   value $outer
+[INFO]               method apply (final)
+[INFO]               method apply (final <bridge> <artifact>)
+[INFO]               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO]               value $outer (<synthetic> <stable> <artifact>)
+[INFO] O         <$anon: Function0> [Owner was method apply, now <$anon: Function0>] (final <synthetic>)
+[INFO]               constructor $anonfun$apply$6
+[INFO]                   value $outer
+[INFO]               method apply (final)
+[INFO]                   value objects
+[INFO]               method apply (final <bridge> <artifact>)
+[INFO]               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO]               value $outer (<synthetic> <stable> <artifact>)
+[INFO] O         <$anon: Function0> [Owner was method apply, now <$anon: Function0>] (final <synthetic>)
+[INFO]               constructor $anonfun$apply$7
+[INFO]                   value $outer
+[INFO]               method apply (final)
+[INFO]                   value integers
+[INFO]               method apply (final <bridge> <artifact>)
+[INFO]               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO]               value $outer (<synthetic> <stable> <artifact>)
+[INFO]           constructor $anonfun$1
+[INFO]               value $outer
+[INFO]           method apply (final)
+[INFO]           method apply (final <bridge> <artifact>)
+[INFO]           value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]           value <local $anonfun>
+[INFO]           value $outer (<synthetic> <stable> <artifact>)
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of constructors]]
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO] *     method eq (final)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       <$anon: Function0> (final <synthetic>)
+[INFO]           <$anon: Function0> (final <synthetic>)
+[INFO]               <$anon: Function0> (final <synthetic>)
+[INFO]                   constructor $anonfun$apply$1
+[INFO]                       value $outer
+[INFO]                   method apply (final)
+[INFO]                   method apply (final <bridge> <artifact>)
+[INFO]                   value <local $anonfun>
+[INFO]               <$anon: Function0> (final <synthetic>)
+[INFO]                   constructor $anonfun$apply$2
+[INFO]                       value $outer
+[INFO]                   method apply (final <bridge> <artifact>)
+[INFO]                   method apply (final)
+[INFO]                   value <local $anonfun>
+[INFO]               <$anon: Function0> (final <synthetic>)
+[INFO]                   constructor $anonfun$apply$4
+[INFO]                       value $outer
+[INFO]                   method apply (final)
+[INFO]                   value <local $anonfun>
+[INFO]               <$anon: Function0> (final <synthetic>)
+[INFO]                   constructor $anonfun$apply$5
+[INFO]                       value $outer
+[INFO]                   method apply (final)
+[INFO]                   value <local $anonfun>
+[INFO]               constructor $anonfun$apply$3
+[INFO]                   value $outer
+[INFO]               method apply (final)
+[INFO]               method apply (final <bridge> <artifact>)
+[INFO]               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO]           <$anon: Function0> (final <synthetic>)
+[INFO]               constructor $anonfun$apply$6
+[INFO]                   value $outer
+[INFO]               method apply (final <bridge> <artifact>)
+[INFO]               method apply (final)
+[INFO]                   value objects
+[INFO]               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO]           <$anon: Function0> (final <synthetic>)
+[INFO]               constructor $anonfun$apply$7
+[INFO]                   value $outer
+[INFO]               method apply (final <bridge> <artifact>)
+[INFO]               method apply (final)
+[INFO]                   value integers
+[INFO]               value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]               value <local $anonfun>
+[INFO]           constructor $anonfun$1
+[INFO]               value $outer
+[INFO]           method apply (final <bridge> <artifact>)
+[INFO]           method apply (final)
+[INFO]           value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]           value <local $anonfun>
+[INFO]           value $outer (<synthetic> <stable> <artifact>)
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO]   package scala (final)
+[INFO] 
+[INFO] !!! Heading from constructors to flatten, 11 symbols vanished:
+[INFO] ( 1) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     Select: $anonfun$apply$4.this.$outer
+[INFO]     ValDef: <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _
+[INFO] ( 2) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     Select: $anonfun$apply$5.this.$outer
+[INFO]     ValDef: <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _
+[INFO] ( 3) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     Select: $anonfun$apply$2.this.$outer
+[INFO]     ValDef: <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _
+[INFO] ( 4) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     Select: $anonfun$apply$1.this.$outer
+[INFO]     ValDef: <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _
+[INFO] ( 5) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     DefDef: <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$6.this.$outer
+[INFO] ( 6) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     DefDef: <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$3.this.$outer
+[INFO] ( 7) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     DefDef: <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$7.this.$outer
+[INFO] ( 8) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     DefDef: <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$4.this.$outer
+[INFO] ( 9) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     DefDef: <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$2.this.$outer
+[INFO] (10) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     DefDef: <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$5.this.$outer
+[INFO] (11) value $outer -> <$anon: Function0> -> <$anon: Function0> -> ...
+[INFO]     DefDef: <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$1.this.$outer
+[INFO] 
+[INFO] [[symbol layout at end of flatten]]
+[INFO] O <$anon: Function0> [Owner was class VarArgsTest, now package jnh5y] (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]       value $outer (<synthetic> <stable> <artifact>)
+[INFO] O <$anon: Function0> [Owner was <$anon: Function0>, now package jnh5y] (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO] O <$anon: Function0> [Owner was <$anon: Function0>, now package jnh5y] (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$1
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO] O <$anon: Function0> [Owner was <$anon: Function0>, now package jnh5y] (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$2
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO] O <$anon: Function0> [Owner was <$anon: Function0>, now package jnh5y] (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$4
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO] O <$anon: Function0> [Owner was <$anon: Function0>, now package jnh5y] (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$5
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO] O <$anon: Function0> [Owner was <$anon: Function0>, now package jnh5y] (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$6
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]           value objects
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO] O <$anon: Function0> [Owner was <$anon: Function0>, now package jnh5y] (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$7
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]           value integers
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]       method eq (final)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of mixin]]
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]       value $outer (<synthetic> <stable> <artifact>)
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$1
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$2
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$4
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$5
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$6
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]           value objects
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$7
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]           value integers
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   class Example (case)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]       method eq (final)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   package scala (final)
+[INFO]       class AbstractFunction0 (abstract)
+[INFO]           constructor AbstractFunction0
+[INFO]       class Array (final)
+[INFO]       class Int (final abstract)
+[INFO]       method apply
+[INFO]       method apply
+[INFO]       method box
+[INFO]       method wrapRefArray (implicit)
+[INFO]       object Array
+[INFO]       object ClassTag
+[INFO]       object Int
+[INFO]       object Predef
+[INFO]       trait ClassTag (abstract)
+[INFO]       trait Function0 (abstract)
+[INFO]       trait Serializable (abstract)
+[INFO]       value AnyRef (<stable> <accessor>)
+[INFO] 
+[INFO] [[symbol layout at end of cleanup]]
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]       value $outer (<synthetic> <stable> <artifact>)
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$1
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$2
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$4
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$5
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$6
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]           value objects
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$7
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]           value integers
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   class AbstractFunction0 (abstract)
+[INFO]       constructor AbstractFunction0
+[INFO]   class Array (final)
+[INFO]   class Example (case)
+[INFO]   class Int (final abstract)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]       method eq (final)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method box
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object Int
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   trait Function0 (abstract)
+[INFO]   trait Serializable (abstract)
+[INFO] 
+[INFO] !!! Heading from cleanup to delambdafy, 9 symbols vanished:
+[INFO] ( 1) method apply -> object Array -> package scala -> ...
+[INFO]     Select: scala.Array.apply
+[INFO] ApplyToImplicitArgs: scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Integer]{new Integer(1), new Integer(5)}.$asInstanceOf[Array[Object]]()), (ClassTag.apply(classOf[java.lang.Integer]): scala.reflect.ClassTag))
+[INFO] ApplyToImplicitArgs: scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", new Integer(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag))
+[INFO] ApplyToImplicitArgs: scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", scala.Int.box(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag))
+[INFO] ( 2) method apply -> object ClassTag -> package reflect -> ...
+[INFO]      Apply: ClassTag.apply(classOf[java.lang.Integer])
+[INFO]     Select: ClassTag.apply
+[INFO] ( 3) method wrapRefArray -> class LowPriorityImplicits -> package scala -> ...
+[INFO]      Apply: scala.this.Predef.wrapRefArray(Array[Integer]{new Integer(1), new Integer(5)}.$asInstanceOf[Array[Object]]())
+[INFO]      Apply: scala.this.Predef.wrapRefArray(Array[Object]{"foo", new Integer(1)})
+[INFO]      Apply: scala.this.Predef.wrapRefArray(Array[Object]{"foo", scala.Int.box(1)})
+[INFO]     Select: scala.this.Predef.wrapRefArray
+[INFO] ( 4) object Array -> package scala -> package <root>
+[INFO]     Select: scala.Array
+[INFO] ( 5) object ClassTag -> package reflect -> package scala -> ...
+[INFO]      Ident: ClassTag
+[INFO] ( 6) object Predef -> package scala -> package <root>
+[INFO]     Select: scala.this.Predef
+[INFO] ( 7) package scala -> package <root>
+[INFO]       This: scala.this
+[INFO] ( 8) trait ClassTag -> package reflect -> package scala -> ...
+[INFO]   TypeTree: scala.reflect.ClassTag
+[INFO] ( 9) value AnyRef -> object ClassTag -> package reflect -> ...
+[INFO]      Apply: ClassTag.AnyRef()
+[INFO]     Select: ClassTag.AnyRef
+[INFO] 
+[INFO] [[symbol layout at end of delambdafy]]
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]       value $outer (<synthetic> <stable> <artifact>)
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$1
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$2
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$4
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$5
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$6
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]           value objects
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$7
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]           value integers
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   class AbstractFunction0 (abstract)
+[INFO]       constructor AbstractFunction0
+[INFO]   class Array (final)
+[INFO]   class Example (case)
+[INFO]   class Int (final abstract)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]       method eq (final)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method box
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object Int
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   trait Function0 (abstract)
+[INFO]   trait Serializable (abstract)
+[INFO] 
+[INFO] [[symbol layout at end of icode]]
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]       value $outer (<synthetic> <stable> <artifact>)
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$1
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$2
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$4
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$5
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$6
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]           value objects
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$7
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]           value integers
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   class AbstractFunction0 (abstract)
+[INFO]       constructor AbstractFunction0
+[INFO]   class Array (final)
+[INFO]   class Example (case)
+[INFO]   class Int (final abstract)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]       method eq (final)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method box
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object Int
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   trait Function0 (abstract)
+[INFO]   trait Serializable (abstract)
+[INFO] 
+[INFO] [[symbol layout at end of jvm]]
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]       value $outer (<synthetic> <stable> <artifact>)
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$1
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$2
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$4
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$3$$anonfun$apply$5
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$6
+[INFO]           value $outer
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       method apply (final)
+[INFO]           value objects
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   <$anon: Function0> (final <synthetic>)
+[INFO]       constructor VarArgsTest$$anonfun$1$$anonfun$apply$7
+[INFO]           value $outer
+[INFO]       method apply (final)
+[INFO]           value integers
+[INFO]       method apply (final <bridge> <artifact>)
+[INFO]       value $outer (private <local> <synthetic> <paramaccessor> <artifact>)
+[INFO]       value <local $anonfun>
+[INFO]   class AbstractFunction0 (abstract)
+[INFO]       constructor AbstractFunction0
+[INFO]   class Array (final)
+[INFO]   class Example (case)
+[INFO]   class Int (final abstract)
+[INFO]   class Integer (final)
+[INFO]       constructor Integer
+[INFO]   class Object
+[INFO]       method $asInstanceOf (final <synthetic> <artifact>)
+[INFO]       method eq (final)
+[INFO]   class Specification (abstract)
+[INFO]       constructor Specification
+[INFO]   class VarArgsTest
+[INFO]       constructor VarArgsTest
+[INFO]       method myBadFunction
+[INFO]       value <local VarArgsTest>
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunction (<static>)
+[INFO]   method arrayFunctionInteger (<static>)
+[INFO]   method box
+[INFO]   method described (implicit)
+[INFO]   method in
+[INFO]   method inExample (implicit)
+[INFO]   method sequential
+[INFO]   method should
+[INFO]   method varargsFunction (<static>)
+[INFO]   method varargsFunctionInteger (<static>)
+[INFO]   object Int
+[INFO]   object MyJavaClass
+[INFO]   package com (final)
+[INFO]   package github (final)
+[INFO]   package jnh5y (final)
+[INFO]   package matcher (final)
+[INFO]       class MatchSuccess (case)
+[INFO]       method matchResultAsResult (implicit)
+[INFO]       method mustEqual
+[INFO]       method theValue (implicit)
+[INFO]       object MatchResult
+[INFO]       trait MatchResult (abstract)
+[INFO]       value ok (<stable> <accessor> lazy)
+[INFO]   package scala (final)
+[INFO]   trait Function0 (abstract)
+[INFO]   trait Serializable (abstract)
+[INFO] prepare-compile in 0 s
+[INFO] compile in 3 s
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ scala-varags ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ scala-varags ---
+[INFO] Surefire report directory: /opt/devel/src/scala-varags/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.jnh5y.VarArgsTest
+Called arrayFunction with 2 inputs.
+  Object 0:foo
+  Object 1:1
+Called arrayFunction with 1 inputs.
+  Object 0:foo
+Called arrayFunction with 2 inputs.
+  Object 0:foo
+  Object 1:1
+Called varargsFunction with 1 inputs.
+  Object 0:[Ljava.lang.Object;@2c7b5824
+Called varargsFunction with 2 inputs.
+  Object 0:foo
+  Object 1:1
+Called arrayFunctionInteger with 2 inputs.
+  Object 0:1
+  Object 1:5
+Called varargsFunctionInteger with 2 inputs.
+  Object 0:1
+  Object 1:5
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.702 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.128 s
+[INFO] Finished at: 2021-03-11T20:29:19Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,171 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:scala-varags >----------------------
+[INFO] Building scala-varags 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ scala-varags ---
+[INFO] Deleting /opt/devel/src/scala-varags/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ scala-varags ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.1:add-source (scala-compile-first) @ scala-varags ---
+[INFO] Add Source directory: /opt/devel/src/scala-varags/src/main/scala
+[INFO] Add Test Source directory: /opt/devel/src/scala-varags/src/test/scala
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.1:compile (scala-compile-first) @ scala-varags ---
+[WARNING]  Expected all dependencies to require Scala version: 2.11.7
+[WARNING]  org.example:scala-varags:1.0-SNAPSHOT requires scala version: 2.11.7
+[WARNING]  org.specs2:specs2_2.11:2.3.13 requires scala version: 2.11.1
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /opt/devel/src/scala-varags/src/main/java:-1: info: compiling
+[INFO] Compiling 1 source files to /opt/devel/src/scala-varags/target/classes at 1615495023821
+[INFO] Usage: scalac <options> <source files>
+[INFO] 
+[INFO] -- Notes on option parsing --
+[INFO] Boolean settings are always false unless set.
+[INFO] Where multiple values are accepted, they should be comma-separated.
+[INFO]   example: -Xplugin:option1,option2
+[INFO] <phases> means one or a comma-separated list of:
+[INFO]   (partial) phase names, phase ids, phase id ranges, or the string "all".
+[INFO]   example: -Xprint:all prints all phases.
+[INFO]   example: -Xprint:expl,24-26 prints phases explicitouter, closelim, dce, jvm.
+[INFO]   example: -Xprint:-4 prints only the phases up to typer.
+[INFO] 
+[INFO] Possible advanced options include:
+[INFO]   -Xcheckinit                    Wrap field accessors to throw an exception on uninitialized access.
+[WARNING]   -Xdev                          Indicates user is a developer - issue warnings about anything which seems amiss
+[INFO]   -Xdisable-assertions           Generate no assertions or assumptions.
+[INFO]   -Xelide-below <n>              Calls to @elidable methods are omitted if method priority is lower than argument
+[INFO]   -Xexperimental                 Enable experimental extensions.
+[WARNING]   -Xfatal-warnings               Fail the compilation if there are any warnings.
+[INFO]   -Xfull-lubs                    Retains pre 2.10 behavior of less aggressive truncation of least upper bounds.
+[INFO]   -Xfuture                       Turn on future language features.
+[INFO]   -Xgenerate-phase-graph <file>  Generate the phase graphs (outputs .dot files) to fileX.dot.
+[WARNING]   -Xlint:<_,warning,-warning>    Enable or disable specific warnings: `_' for all, `-Xlint:help' to list
+[INFO]   -Xlog-free-terms               Print a message when reification creates a free term.
+[INFO]   -Xlog-free-types               Print a message when reification resorts to generating a free type.
+[INFO]   -Xlog-implicit-conversions     Print a message whenever an implicit conversion is inserted.
+[INFO]   -Xlog-implicits                Show more detail on why some implicits are not applicable.
+[INFO]   -Xlog-reflective-calls         Print a message when a reflective method call is generated
+[INFO]   -Xmacro-settings:<option>      Custom settings for macros.
+[INFO]   -Xmain-class <path>            Class for manifest's Main-Class entry (only useful with -d <jar>)
+[INFO]   -Xmax-classfile-name <n>       Maximum filename length for generated classes
+[WARNING]   -Xmigration:<version>          Warn about constructs whose behavior may have changed since version.
+[INFO]   -Xno-forwarders                Do not generate static forwarders in mirror classes.
+[INFO]   -Xno-patmat-analysis           Don't perform exhaustivity/unreachability analysis. Also, ignore @switch annotation.
+[INFO]   -Xno-uescape                   Disable handling of \u unicode escapes.
+[INFO]   -Xnojline                      Do not use JLine for editing.
+[INFO]   -Xplugin:<paths>               Load a plugin from each classpath.
+[INFO]   -Xplugin-disable:<plugin>      Disable plugins by name.
+[INFO]   -Xplugin-list                  Print a synopsis of loaded plugins.
+[INFO]   -Xplugin-require:<plugin>      Abort if a named plugin is not loaded.
+[INFO]   -Xpluginsdir <path>            Path to search for plugin archives.
+[INFO]   -Xprint:<phases>               Print out program after <phases>
+[INFO]   -Xprint-icode[:phases]         Log internal icode to *.icode files after <phases> (default: icode)
+[INFO]   -Xprint-pos                    Print tree positions, as offsets.
+[INFO]   -Xprint-types                  Print tree types (debugging option).
+[ERROR]   -Xprompt                       Display a prompt after each error (debugging option).
+[INFO]   -Xresident                     Compiler stays resident: read source filenames from standard input.
+[INFO]   -Xscript <object>              Treat the source file as a script and wrap it in a main method.
+[INFO]   -Xshow-class <class>           Show internal representation of class.
+[INFO]   -Xshow-object <object>         Show internal representation of object.
+[INFO]   -Xshow-phases                  Print a synopsis of compiler phases.
+[INFO]   -Xsource:<version>             Treat compiler input as Scala source for the specified version, see SI-8126.
+[INFO]   -Xsource-reader <classname>    Specify a custom method for reading source files.
+[INFO]   -Xstrict-inference             Don't infer known-unsound types
+[INFO]   -Xverify                       Verify generic signatures in generated bytecode (asm backend only.)
+[INFO]   -Xxml:<_,property,-property>   Configure XML parsing: `_' for all, `-Xxml:help' to list
+[INFO]   -Y                             Print a synopsis of private options.
+[INFO] prepare-compile in 0 s
+[INFO] compile in 0 s
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ scala-varags ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /opt/devel/src/scala-varags/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ scala-varags ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /opt/devel/src/scala-varags/src/test/resources
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.1:testCompile (scala-test-compile) @ scala-varags ---
+[WARNING]  Expected all dependencies to require Scala version: 2.11.7
+[WARNING]  org.example:scala-varags:1.0-SNAPSHOT requires scala version: 2.11.7
+[WARNING]  org.specs2:specs2_2.11:2.3.13 requires scala version: 2.11.1
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /opt/devel/src/scala-varags/src/test/java:-1: info: compiling
+[INFO] /opt/devel/src/scala-varags/src/test/scala:-1: info: compiling
+[INFO] Compiling 1 source files to /opt/devel/src/scala-varags/target/test-classes at 1615495025123
+[INFO] Usage: scalac <options> <source files>
+[INFO] 
+[INFO] -- Notes on option parsing --
+[INFO] Boolean settings are always false unless set.
+[INFO] Where multiple values are accepted, they should be comma-separated.
+[INFO]   example: -Xplugin:option1,option2
+[INFO] <phases> means one or a comma-separated list of:
+[INFO]   (partial) phase names, phase ids, phase id ranges, or the string "all".
+[INFO]   example: -Xprint:all prints all phases.
+[INFO]   example: -Xprint:expl,24-26 prints phases explicitouter, closelim, dce, jvm.
+[INFO]   example: -Xprint:-4 prints only the phases up to typer.
+[INFO] 
+[INFO] Possible advanced options include:
+[INFO]   -Xcheckinit                    Wrap field accessors to throw an exception on uninitialized access.
+[WARNING]   -Xdev                          Indicates user is a developer - issue warnings about anything which seems amiss
+[INFO]   -Xdisable-assertions           Generate no assertions or assumptions.
+[INFO]   -Xelide-below <n>              Calls to @elidable methods are omitted if method priority is lower than argument
+[INFO]   -Xexperimental                 Enable experimental extensions.
+[WARNING]   -Xfatal-warnings               Fail the compilation if there are any warnings.
+[INFO]   -Xfull-lubs                    Retains pre 2.10 behavior of less aggressive truncation of least upper bounds.
+[INFO]   -Xfuture                       Turn on future language features.
+[INFO]   -Xgenerate-phase-graph <file>  Generate the phase graphs (outputs .dot files) to fileX.dot.
+[WARNING]   -Xlint:<_,warning,-warning>    Enable or disable specific warnings: `_' for all, `-Xlint:help' to list
+[INFO]   -Xlog-free-terms               Print a message when reification creates a free term.
+[INFO]   -Xlog-free-types               Print a message when reification resorts to generating a free type.
+[INFO]   -Xlog-implicit-conversions     Print a message whenever an implicit conversion is inserted.
+[INFO]   -Xlog-implicits                Show more detail on why some implicits are not applicable.
+[INFO]   -Xlog-reflective-calls         Print a message when a reflective method call is generated
+[INFO]   -Xmacro-settings:<option>      Custom settings for macros.
+[INFO]   -Xmain-class <path>            Class for manifest's Main-Class entry (only useful with -d <jar>)
+[INFO]   -Xmax-classfile-name <n>       Maximum filename length for generated classes
+[WARNING]   -Xmigration:<version>          Warn about constructs whose behavior may have changed since version.
+[INFO]   -Xno-forwarders                Do not generate static forwarders in mirror classes.
+[INFO]   -Xno-patmat-analysis           Don't perform exhaustivity/unreachability analysis. Also, ignore @switch annotation.
+[INFO]   -Xno-uescape                   Disable handling of \u unicode escapes.
+[INFO]   -Xnojline                      Do not use JLine for editing.
+[INFO]   -Xplugin:<paths>               Load a plugin from each classpath.
+[INFO]   -Xplugin-disable:<plugin>      Disable plugins by name.
+[INFO]   -Xplugin-list                  Print a synopsis of loaded plugins.
+[INFO]   -Xplugin-require:<plugin>      Abort if a named plugin is not loaded.
+[INFO]   -Xpluginsdir <path>            Path to search for plugin archives.
+[INFO]   -Xprint:<phases>               Print out program after <phases>
+[INFO]   -Xprint-icode[:phases]         Log internal icode to *.icode files after <phases> (default: icode)
+[INFO]   -Xprint-pos                    Print tree positions, as offsets.
+[INFO]   -Xprint-types                  Print tree types (debugging option).
+[ERROR]   -Xprompt                       Display a prompt after each error (debugging option).
+[INFO]   -Xresident                     Compiler stays resident: read source filenames from standard input.
+[INFO]   -Xscript <object>              Treat the source file as a script and wrap it in a main method.
+[INFO]   -Xshow-class <class>           Show internal representation of class.
+[INFO]   -Xshow-object <object>         Show internal representation of object.
+[INFO]   -Xshow-phases                  Print a synopsis of compiler phases.
+[INFO]   -Xsource:<version>             Treat compiler input as Scala source for the specified version, see SI-8126.
+[INFO]   -Xsource-reader <classname>    Specify a custom method for reading source files.
+[INFO]   -Xstrict-inference             Don't infer known-unsound types
+[INFO]   -Xverify                       Verify generic signatures in generated bytecode (asm backend only.)
+[INFO]   -Xxml:<_,property,-property>   Configure XML parsing: `_' for all, `-Xxml:help' to list
+[INFO]   -Y                             Print a synopsis of private options.
+[INFO] prepare-compile in 0 s
+[INFO] compile in 0 s
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ scala-varags ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ scala-varags ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.015 s
+[INFO] Finished at: 2021-03-11T20:37:05Z
+[INFO] ------------------------------------------------------------------------

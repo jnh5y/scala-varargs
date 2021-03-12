@@ -1,0 +1,1245 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:scala-varags >----------------------
+[INFO] Building scala-varags 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ scala-varags ---
+[INFO] Deleting /opt/devel/src/scala-varags/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ scala-varags ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.1:add-source (scala-compile-first) @ scala-varags ---
+[INFO] Add Source directory: /opt/devel/src/scala-varags/src/main/scala
+[INFO] Add Test Source directory: /opt/devel/src/scala-varags/src/test/scala
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.1:compile (scala-compile-first) @ scala-varags ---
+[WARNING]  Expected all dependencies to require Scala version: 2.11.7
+[WARNING]  org.example:scala-varags:1.0-SNAPSHOT requires scala version: 2.11.7
+[WARNING]  org.specs2:specs2_2.11:2.3.13 requires scala version: 2.11.1
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /opt/devel/src/scala-varags/src/main/java:-1: info: compiling
+[INFO] Compiling 1 source files to /opt/devel/src/scala-varags/target/classes at 1615495310766
+[INFO] [[syntax trees at end of                    parser]] // MyJavaClass.java
+[INFO] package com.github.jnh5y {
+[INFO]   import _root_.java.util.List;
+[INFO]   object MyJavaClass extends  {
+[INFO]     def <init>() = _;
+[INFO]     <static> def arrayFunction(input: Object = _): Object = _;
+[INFO]     <static> def arrayFunction(input: scala.Array[Object] = _): Object = _;
+[INFO]     <static> def varargsFunction(input: Object = _): Unit = _;
+[INFO]     <static> def varargsFunction(input: scala.<repeated...>[Object] = _): Unit = _;
+[INFO]     <static> def varargsFunction(input: List[Object] = _): Unit = _;
+[INFO]     <static> def arrayFunctionInteger(input: scala.Array[Integer] = _): Unit = _;
+[INFO]     <static> def varargsFunctionInteger(input: scala.<repeated...>[Integer] = _): Unit = _
+[INFO]   };
+[INFO]   class MyJavaClass extends _root_.java.lang.Object {
+[INFO]     import MyJavaClass._;
+[INFO]     def <init>() = _
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of                     namer]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of            packageobjects]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                     typer]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                    patmat]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of            superaccessors]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                extmethods]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                   pickler]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                 refchecks]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                   uncurry]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                 tailcalls]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                specialize]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of             explicitouter]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                   erasure]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of               posterasure]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                  lazyvals]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                lambdalift]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of              constructors]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                   flatten]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                     mixin]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                   cleanup]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                delambdafy]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                     icode]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] [[syntax trees at end of                       jvm]] // MyJavaClass.java: tree is unchanged since parser
+[INFO] prepare-compile in 0 s
+[INFO] compile in 1 s
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ scala-varags ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /opt/devel/src/scala-varags/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ scala-varags ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /opt/devel/src/scala-varags/src/test/resources
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.1:testCompile (scala-test-compile) @ scala-varags ---
+[WARNING]  Expected all dependencies to require Scala version: 2.11.7
+[WARNING]  org.example:scala-varags:1.0-SNAPSHOT requires scala version: 2.11.7
+[WARNING]  org.specs2:specs2_2.11:2.3.13 requires scala version: 2.11.1
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /opt/devel/src/scala-varags/src/test/java:-1: info: compiling
+[INFO] /opt/devel/src/scala-varags/src/test/scala:-1: info: compiling
+[INFO] Compiling 1 source files to /opt/devel/src/scala-varags/target/test-classes at 1615495312641
+[INFO] [[syntax trees at end of                    parser]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   import org.junit.runner.RunWith;
+[INFO]   import org.specs2.mutable.Specification;
+[INFO]   import org.specs2.runner.JUnitRunner;
+[INFO]   @new RunWith(classOf[JUnitRunner]) class VarArgsTest extends Specification {
+[INFO]     def <init>() = {
+[INFO]       super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     sequential;
+[INFO]     val unused = 3;
+[INFO]     "VarArgs".should({
+[INFO]       "accept singleton or array values".in({
+[INFO]         MyJavaClass.arrayFunction(Array[AnyRef]("foo", Int.box(1))).mustEqual(2);
+[INFO]         MyJavaClass.arrayFunction("foo").mustEqual(1)
+[INFO]       });
+[INFO]       "work with objects".in({
+[INFO]         val objects: Array[AnyRef] = Array[AnyRef]("foo", new Integer(1));
+[INFO]         MyJavaClass.arrayFunction(objects);
+[INFO]         MyJavaClass.varargsFunction(objects);
+[INFO]         MyJavaClass.varargsFunction((objects: _*));
+[INFO]         ok
+[INFO]       });
+[INFO]       "work with Integers".in({
+[INFO]         val integers = Array[Integer](new Integer(1), new Integer(5));
+[INFO]         MyJavaClass.arrayFunctionInteger(integers);
+[INFO]         MyJavaClass.varargsFunctionInteger((integers: _*));
+[INFO]         ok
+[INFO]       })
+[INFO]     });
+[INFO]     def myBadFunction(): Int = return 3
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of                     namer]] // VarArgsTest.scala: tree is unchanged since parser
+[INFO] [[syntax trees at end of            packageobjects]] // VarArgsTest.scala: tree is unchanged since parser
+[INFO] [[syntax trees at end of                     typer]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   import org.junit.runner.RunWith;
+[INFO]   import org.specs2.mutable.Specification;
+[INFO]   import org.specs2.runner.JUnitRunner;
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     VarArgsTest.this.sequential;
+[INFO]     private[this] val unused: Int = 3;
+[INFO]     <stable> <accessor> def unused: Int = VarArgsTest.this.unused;
+[INFO]     VarArgsTest.this.described("VarArgs").should({
+[INFO]       VarArgsTest.this.inExample("accept singleton or array values").in[org.specs2.matcher.MatchResult[Any]]({
+[INFO]         VarArgsTest.this.theValue[Object](MyJavaClass.arrayFunction(scala.Array.apply[AnyRef]("foo", scala.Int.box(1))((ClassTag.AnyRef: scala.reflect.ClassTag[AnyRef])))).mustEqual(2);
+[INFO]         VarArgsTest.this.theValue[Object](MyJavaClass.arrayFunction("foo")).mustEqual(1)
+[INFO]       })(matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchResult, Any]);
+[INFO]       VarArgsTest.this.inExample("work with objects").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]         val objects: Array[AnyRef] = scala.Array.apply[AnyRef]("foo", new java.this.lang.Integer(1))((ClassTag.AnyRef: scala.reflect.ClassTag[AnyRef]));
+[INFO]         MyJavaClass.arrayFunction(objects);
+[INFO]         MyJavaClass.varargsFunction(objects);
+[INFO]         MyJavaClass.varargsFunction((objects: _*));
+[INFO]         VarArgsTest.this.ok
+[INFO]       })(matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type]);
+[INFO]       VarArgsTest.this.inExample("work with Integers").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]         val integers: Array[Integer] = scala.Array.apply[Integer](new java.this.lang.Integer(1), new java.this.lang.Integer(5))((ClassTag.apply[Integer](classOf[java.lang.Integer]): scala.reflect.ClassTag[Integer]));
+[INFO]         MyJavaClass.arrayFunctionInteger(integers);
+[INFO]         MyJavaClass.varargsFunctionInteger((integers: _*));
+[INFO]         VarArgsTest.this.ok
+[INFO]       })(matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type])
+[INFO]     });
+[INFO]     def myBadFunction(): Int = return 3
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of                    patmat]] // VarArgsTest.scala: tree is unchanged since typer
+[INFO] [[syntax trees at end of            superaccessors]] // VarArgsTest.scala: tree is unchanged since typer
+[INFO] [[syntax trees at end of                extmethods]] // VarArgsTest.scala: tree is unchanged since typer
+[INFO] [[syntax trees at end of                   pickler]] // VarArgsTest.scala: tree is unchanged since typer
+[INFO] [[syntax trees at end of                 refchecks]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     VarArgsTest.this.sequential;
+[INFO]     private[this] val unused: Int = 3;
+[INFO]     <stable> <accessor> def unused: Int = VarArgsTest.this.unused;
+[INFO]     VarArgsTest.this.described("VarArgs").should({
+[INFO]       VarArgsTest.this.inExample("accept singleton or array values").in[org.specs2.matcher.MatchResult[Any]]({
+[INFO]         VarArgsTest.this.theValue[Object](MyJavaClass.arrayFunction(scala.Array.apply[AnyRef]("foo", scala.Int.box(1))((ClassTag.AnyRef: scala.reflect.ClassTag[AnyRef])))).mustEqual(2);
+[INFO]         VarArgsTest.this.theValue[Object](MyJavaClass.arrayFunction("foo")).mustEqual(1)
+[INFO]       })(matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchResult, Any]);
+[INFO]       VarArgsTest.this.inExample("work with objects").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]         val objects: Array[AnyRef] = scala.Array.apply[AnyRef]("foo", new java.this.lang.Integer(1))((ClassTag.AnyRef: scala.reflect.ClassTag[AnyRef]));
+[INFO]         MyJavaClass.arrayFunction(objects);
+[INFO]         MyJavaClass.varargsFunction(objects);
+[INFO]         MyJavaClass.varargsFunction((objects: _*));
+[INFO]         VarArgsTest.this.ok
+[INFO]       })(matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type]);
+[INFO]       VarArgsTest.this.inExample("work with Integers").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]         val integers: Array[Integer] = scala.Array.apply[Integer](new java.this.lang.Integer(1), new java.this.lang.Integer(5))((ClassTag.apply[Integer](classOf[java.lang.Integer]): scala.reflect.ClassTag[Integer]));
+[INFO]         MyJavaClass.arrayFunctionInteger(integers);
+[INFO]         MyJavaClass.varargsFunctionInteger((integers: _*));
+[INFO]         VarArgsTest.this.ok
+[INFO]       })(matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type])
+[INFO]     });
+[INFO]     def myBadFunction(): Int = return 3
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of                   uncurry]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     VarArgsTest.this.sequential();
+[INFO]     private[this] val unused: Int = 3;
+[INFO]     <stable> <accessor> def unused(): Int = VarArgsTest.this.unused;
+[INFO]     VarArgsTest.this.described("VarArgs").should({
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.specification.Example] with Serializable {
+[INFO]         def <init>(): <$anon: () => org.specs2.specification.Example> = {
+[INFO]           $anonfun.super.<init>();
+[INFO]           ()
+[INFO]         };
+[INFO]         final def apply(): org.specs2.specification.Example = {
+[INFO]           VarArgsTest.this.inExample("accept singleton or array values").in[org.specs2.matcher.MatchResult[Any]]({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.matcher.MatchResult[Any]] with Serializable {
+[INFO]               def <init>(): <$anon: () => org.specs2.matcher.MatchResult[Any]> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchResult[Any] = {
+[INFO]                 VarArgsTest.this.theValue[Object]({
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[Object] with Serializable {
+[INFO]     def <init>(): <$anon: () => Object> = {
+[INFO]       $anonfun.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction(scala.Array.apply[Object](scala.this.Predef.wrapRefArray[Object](Array[Object]{"foo", scala.Int.box(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag[Object])))
+[INFO]   };
+[INFO]   (new <$anon: () => Object>(): () => Object)
+[INFO] }).mustEqual({
+[INFO]                   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[Int] with Serializable {
+[INFO]                     def <init>(): <$anon: () => Int> = {
+[INFO]                       $anonfun.super.<init>();
+[INFO]                       ()
+[INFO]                     };
+[INFO]                     final def apply(): Int = 2
+[INFO]                   };
+[INFO]                   (new <$anon: () => Int>(): () => Int)
+[INFO]                 });
+[INFO]                 VarArgsTest.this.theValue[Object]({
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[Object] with Serializable {
+[INFO]     def <init>(): <$anon: () => Object> = {
+[INFO]       $anonfun.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction("foo")
+[INFO]   };
+[INFO]   (new <$anon: () => Object>(): () => Object)
+[INFO] }).mustEqual({
+[INFO]                   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[Int] with Serializable {
+[INFO]                     def <init>(): <$anon: () => Int> = {
+[INFO]                       $anonfun.super.<init>();
+[INFO]                       ()
+[INFO]                     };
+[INFO]                     final def apply(): Int = 1
+[INFO]                   };
+[INFO]                   (new <$anon: () => Int>(): () => Int)
+[INFO]                 })
+[INFO]               }
+[INFO]             };
+[INFO]             (new <$anon: () => org.specs2.matcher.MatchResult[Any]>(): () => org.specs2.matcher.MatchResult[Any])
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchResult, Any]());
+[INFO]           VarArgsTest.this.inExample("work with objects").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.matcher.MatchSuccess[None.type]] with Serializable {
+[INFO]               def <init>(): <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchSuccess[None.type] = {
+[INFO]                 val objects: Array[Object] = scala.Array.apply[Object](scala.this.Predef.wrapRefArray[Object](Array[Object]{"foo", new Integer(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag[Object]));
+[INFO]                 MyJavaClass.arrayFunction(objects);
+[INFO]                 MyJavaClass.varargsFunction(Array[Object]{objects});
+[INFO]                 MyJavaClass.varargsFunction(objects);
+[INFO]                 VarArgsTest.this.ok()
+[INFO]               }
+[INFO]             };
+[INFO]             (new <$anon: () => org.specs2.matcher.MatchSuccess[None.type]>(): () => org.specs2.matcher.MatchSuccess[None.type])
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type]());
+[INFO]           VarArgsTest.this.inExample("work with Integers").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.matcher.MatchSuccess[None.type]] with Serializable {
+[INFO]               def <init>(): <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchSuccess[None.type] = {
+[INFO]                 val integers: Array[Integer] = scala.Array.apply[Integer](scala.this.Predef.wrapRefArray[Integer](Array[Integer]{new Integer(1), new Integer(5)}), (ClassTag.apply[Integer](classOf[java.lang.Integer]): scala.reflect.ClassTag[Integer]));
+[INFO]                 MyJavaClass.arrayFunctionInteger(integers);
+[INFO]                 MyJavaClass.varargsFunctionInteger(integers);
+[INFO]                 VarArgsTest.this.ok()
+[INFO]               }
+[INFO]             };
+[INFO]             (new <$anon: () => org.specs2.matcher.MatchSuccess[None.type]>(): () => org.specs2.matcher.MatchSuccess[None.type])
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type]())
+[INFO]         }
+[INFO]       };
+[INFO]       (new <$anon: () => org.specs2.specification.Example>(): () => org.specs2.specification.Example)
+[INFO]     });
+[INFO]     def myBadFunction(): Int = return 3
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of                 tailcalls]] // VarArgsTest.scala: tree is unchanged since uncurry
+[INFO] [[syntax trees at end of                specialize]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     VarArgsTest.this.sequential();
+[INFO]     private[this] val unused: Int = 3;
+[INFO]     <stable> <accessor> def unused(): Int = VarArgsTest.this.unused;
+[INFO]     VarArgsTest.this.described("VarArgs").should({
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.specification.Example] with Serializable {
+[INFO]         def <init>(): <$anon: () => org.specs2.specification.Example> = {
+[INFO]           $anonfun.super.<init>();
+[INFO]           ()
+[INFO]         };
+[INFO]         final def apply(): org.specs2.specification.Example = {
+[INFO]           VarArgsTest.this.inExample("accept singleton or array values").in[org.specs2.matcher.MatchResult[Any]]({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.matcher.MatchResult[Any]] with Serializable {
+[INFO]               def <init>(): <$anon: () => org.specs2.matcher.MatchResult[Any]> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchResult[Any] = {
+[INFO]                 VarArgsTest.this.theValue[Object]({
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[Object] with Serializable {
+[INFO]     def <init>(): <$anon: () => Object> = {
+[INFO]       $anonfun.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction(scala.Array.apply[Object](scala.this.Predef.wrapRefArray[Object](Array[Object]{"foo", scala.Int.box(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag[Object])))
+[INFO]   };
+[INFO]   (new <$anon: () => Object>(): () => Object)
+[INFO] }).mustEqual({
+[INFO]                   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]                     def <init>(): <$anon: () => Int> = {
+[INFO]                       $anonfun.super.<init>();
+[INFO]                       ()
+[INFO]                     };
+[INFO]                     final def apply(): Int = $anonfun.this.apply$mcI$sp();
+[INFO]                     <specialized> def apply$mcI$sp(): Int = 2
+[INFO]                   };
+[INFO]                   (new <$anon: () => Int>(): () => Int)
+[INFO]                 });
+[INFO]                 VarArgsTest.this.theValue[Object]({
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[Object] with Serializable {
+[INFO]     def <init>(): <$anon: () => Object> = {
+[INFO]       $anonfun.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction("foo")
+[INFO]   };
+[INFO]   (new <$anon: () => Object>(): () => Object)
+[INFO] }).mustEqual({
+[INFO]                   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]                     def <init>(): <$anon: () => Int> = {
+[INFO]                       $anonfun.super.<init>();
+[INFO]                       ()
+[INFO]                     };
+[INFO]                     final def apply(): Int = $anonfun.this.apply$mcI$sp();
+[INFO]                     <specialized> def apply$mcI$sp(): Int = 1
+[INFO]                   };
+[INFO]                   (new <$anon: () => Int>(): () => Int)
+[INFO]                 })
+[INFO]               }
+[INFO]             };
+[INFO]             (new <$anon: () => org.specs2.matcher.MatchResult[Any]>(): () => org.specs2.matcher.MatchResult[Any])
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchResult, Any]());
+[INFO]           VarArgsTest.this.inExample("work with objects").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.matcher.MatchSuccess[None.type]] with Serializable {
+[INFO]               def <init>(): <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchSuccess[None.type] = {
+[INFO]                 val objects: Array[Object] = scala.Array.apply[Object](scala.this.Predef.wrapRefArray[Object](Array[Object]{"foo", new Integer(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag[Object]));
+[INFO]                 MyJavaClass.arrayFunction(objects);
+[INFO]                 MyJavaClass.varargsFunction(Array[Object]{objects});
+[INFO]                 MyJavaClass.varargsFunction(objects);
+[INFO]                 VarArgsTest.this.ok()
+[INFO]               }
+[INFO]             };
+[INFO]             (new <$anon: () => org.specs2.matcher.MatchSuccess[None.type]>(): () => org.specs2.matcher.MatchSuccess[None.type])
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type]());
+[INFO]           VarArgsTest.this.inExample("work with Integers").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.matcher.MatchSuccess[None.type]] with Serializable {
+[INFO]               def <init>(): <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchSuccess[None.type] = {
+[INFO]                 val integers: Array[Integer] = scala.Array.apply[Integer](scala.this.Predef.wrapRefArray[Integer](Array[Integer]{new Integer(1), new Integer(5)}), (ClassTag.apply[Integer](classOf[java.lang.Integer]): scala.reflect.ClassTag[Integer]));
+[INFO]                 MyJavaClass.arrayFunctionInteger(integers);
+[INFO]                 MyJavaClass.varargsFunctionInteger(integers);
+[INFO]                 VarArgsTest.this.ok()
+[INFO]               }
+[INFO]             };
+[INFO]             (new <$anon: () => org.specs2.matcher.MatchSuccess[None.type]>(): () => org.specs2.matcher.MatchSuccess[None.type])
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type]())
+[INFO]         }
+[INFO]       };
+[INFO]       (new <$anon: () => org.specs2.specification.Example>(): () => org.specs2.specification.Example)
+[INFO]     });
+[INFO]     def myBadFunction(): Int = return 3
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of             explicitouter]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     VarArgsTest.this.sequential();
+[INFO]     private[this] val unused: Int = 3;
+[INFO]     <stable> <accessor> def unused(): Int = VarArgsTest.this.unused;
+[INFO]     VarArgsTest.this.described("VarArgs").should({
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.specification.Example] with Serializable {
+[INFO]         def <init>($outer: VarArgsTest.this.type): <$anon: () => org.specs2.specification.Example> = {
+[INFO]           $anonfun.super.<init>();
+[INFO]           ()
+[INFO]         };
+[INFO]         final def apply(): org.specs2.specification.Example = {
+[INFO]           $anonfun.this.$outer.inExample("accept singleton or array values").in[org.specs2.matcher.MatchResult[Any]]({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.matcher.MatchResult[Any]] with Serializable {
+[INFO]               def <init>($outer: <$anon: () => org.specs2.specification.Example>): <$anon: () => org.specs2.matcher.MatchResult[Any]> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchResult[Any] = {
+[INFO]                 $anonfun.this.$outer.$outer().theValue[Object]({
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[Object] with Serializable {
+[INFO]     def <init>($outer: <$anon: () => org.specs2.matcher.MatchResult[Any]>): <$anon: () => Object> = {
+[INFO]       $anonfun.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction(scala.Array.apply[Object](scala.this.Predef.wrapRefArray[Object](Array[Object]{"foo", scala.Int.box(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag[Object])));
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: () => org.specs2.matcher.MatchResult[Any]> = _;
+[INFO]     <synthetic> <stable> <artifact> def $outer(): <$anon: () => org.specs2.matcher.MatchResult[Any]> = $anonfun.this.$outer
+[INFO]   };
+[INFO]   (new <$anon: () => Object>($anonfun.this): () => Object)
+[INFO] }).mustEqual({
+[INFO]                   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]                     def <init>($outer: <$anon: () => org.specs2.matcher.MatchResult[Any]>): <$anon: () => Int> = {
+[INFO]                       $anonfun.super.<init>();
+[INFO]                       ()
+[INFO]                     };
+[INFO]                     final def apply(): Int = $anonfun.this.apply$mcI$sp();
+[INFO]                     <specialized> def apply$mcI$sp(): Int = 2;
+[INFO]                     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: () => org.specs2.matcher.MatchResult[Any]> = _;
+[INFO]                     <synthetic> <stable> <artifact> def $outer(): <$anon: () => org.specs2.matcher.MatchResult[Any]> = $anonfun.this.$outer
+[INFO]                   };
+[INFO]                   (new <$anon: () => Int>($anonfun.this): () => Int)
+[INFO]                 });
+[INFO]                 $anonfun.this.$outer.$outer().theValue[Object]({
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[Object] with Serializable {
+[INFO]     def <init>($outer: <$anon: () => org.specs2.matcher.MatchResult[Any]>): <$anon: () => Object> = {
+[INFO]       $anonfun.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction("foo");
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: () => org.specs2.matcher.MatchResult[Any]> = _;
+[INFO]     <synthetic> <stable> <artifact> def $outer(): <$anon: () => org.specs2.matcher.MatchResult[Any]> = $anonfun.this.$outer
+[INFO]   };
+[INFO]   (new <$anon: () => Object>($anonfun.this): () => Object)
+[INFO] }).mustEqual({
+[INFO]                   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]                     def <init>($outer: <$anon: () => org.specs2.matcher.MatchResult[Any]>): <$anon: () => Int> = {
+[INFO]                       $anonfun.super.<init>();
+[INFO]                       ()
+[INFO]                     };
+[INFO]                     final def apply(): Int = $anonfun.this.apply$mcI$sp();
+[INFO]                     <specialized> def apply$mcI$sp(): Int = 1;
+[INFO]                     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: () => org.specs2.matcher.MatchResult[Any]> = _;
+[INFO]                     <synthetic> <stable> <artifact> def $outer(): <$anon: () => org.specs2.matcher.MatchResult[Any]> = $anonfun.this.$outer
+[INFO]                   };
+[INFO]                   (new <$anon: () => Int>($anonfun.this): () => Int)
+[INFO]                 })
+[INFO]               };
+[INFO]               <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: () => org.specs2.specification.Example> = _;
+[INFO]               <synthetic> <stable> <artifact> def $outer(): <$anon: () => org.specs2.specification.Example> = $anonfun.this.$outer
+[INFO]             };
+[INFO]             (new <$anon: () => org.specs2.matcher.MatchResult[Any]>($anonfun.this): () => org.specs2.matcher.MatchResult[Any])
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchResult, Any]());
+[INFO]           $anonfun.this.$outer.inExample("work with objects").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.matcher.MatchSuccess[None.type]] with Serializable {
+[INFO]               def <init>($outer: <$anon: () => org.specs2.specification.Example>): <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchSuccess[None.type] = {
+[INFO]                 val objects: Array[Object] = scala.Array.apply[Object](scala.this.Predef.wrapRefArray[Object](Array[Object]{"foo", new Integer(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag[Object]));
+[INFO]                 MyJavaClass.arrayFunction(objects);
+[INFO]                 MyJavaClass.varargsFunction(Array[Object]{objects});
+[INFO]                 MyJavaClass.varargsFunction(objects);
+[INFO]                 $anonfun.this.$outer.$outer().ok()
+[INFO]               };
+[INFO]               <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: () => org.specs2.specification.Example> = _;
+[INFO]               <synthetic> <stable> <artifact> def $outer(): <$anon: () => org.specs2.specification.Example> = $anonfun.this.$outer
+[INFO]             };
+[INFO]             (new <$anon: () => org.specs2.matcher.MatchSuccess[None.type]>($anonfun.this): () => org.specs2.matcher.MatchSuccess[None.type])
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type]());
+[INFO]           $anonfun.this.$outer.inExample("work with Integers").in[org.specs2.matcher.MatchSuccess[None.type]]({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0[org.specs2.matcher.MatchSuccess[None.type]] with Serializable {
+[INFO]               def <init>($outer: <$anon: () => org.specs2.specification.Example>): <$anon: () => org.specs2.matcher.MatchSuccess[None.type]> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchSuccess[None.type] = {
+[INFO]                 val integers: Array[Integer] = scala.Array.apply[Integer](scala.this.Predef.wrapRefArray[Integer](Array[Integer]{new Integer(1), new Integer(5)}), (ClassTag.apply[Integer](classOf[java.lang.Integer]): scala.reflect.ClassTag[Integer]));
+[INFO]                 MyJavaClass.arrayFunctionInteger(integers);
+[INFO]                 MyJavaClass.varargsFunctionInteger(integers);
+[INFO]                 $anonfun.this.$outer.$outer().ok()
+[INFO]               };
+[INFO]               <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: () => org.specs2.specification.Example> = _;
+[INFO]               <synthetic> <stable> <artifact> def $outer(): <$anon: () => org.specs2.specification.Example> = $anonfun.this.$outer
+[INFO]             };
+[INFO]             (new <$anon: () => org.specs2.matcher.MatchSuccess[None.type]>($anonfun.this): () => org.specs2.matcher.MatchSuccess[None.type])
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult[org.specs2.matcher.MatchSuccess, None.type]())
+[INFO]         };
+[INFO]         <synthetic> <paramaccessor> <artifact> private[this] val $outer: VarArgsTest.this.type = _;
+[INFO]         <synthetic> <stable> <artifact> def $outer(): VarArgsTest.this.type = $anonfun.this.$outer
+[INFO]       };
+[INFO]       (new <$anon: () => org.specs2.specification.Example>(VarArgsTest.this): () => org.specs2.specification.Example)
+[INFO]     });
+[INFO]     def myBadFunction(): Int = return 3
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of                   erasure]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     VarArgsTest.this.sequential();
+[INFO]     private[this] val unused: Int = 3;
+[INFO]     <stable> <accessor> def unused(): Int = VarArgsTest.this.unused;
+[INFO]     VarArgsTest.this.described("VarArgs").should({
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]         def <init>($outer: com.github.jnh5y.VarArgsTest): <$anon: Function0> = {
+[INFO]           $anonfun.super.<init>();
+[INFO]           ()
+[INFO]         };
+[INFO]         final def apply(): org.specs2.specification.Example = {
+[INFO]           $anonfun.this.$outer.inExample("accept singleton or array values").in({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]               def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchResult = {
+[INFO]                 $anonfun.this.$outer.$outer().theValue({
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       $anonfun.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction(scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", scala.Int.box(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag)).$asInstanceOf[Array[Object]]());
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]     <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun.this.$outer
+[INFO]   };
+[INFO]   (new <$anon: Function0>($anonfun.this): Function0)
+[INFO] }).mustEqual({
+[INFO]                   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]                     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]                       $anonfun.super.<init>();
+[INFO]                       ()
+[INFO]                     };
+[INFO]                     final def apply(): Int = $anonfun.this.apply$mcI$sp();
+[INFO]                     <specialized> def apply$mcI$sp(): Int = 2;
+[INFO]                     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]                     <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun.this.$outer;
+[INFO]                     final <bridge> <artifact> def apply(): Object = scala.Int.box($anonfun.this.apply())
+[INFO]                   };
+[INFO]                   (new <$anon: Function0>($anonfun.this): Function0)
+[INFO]                 });
+[INFO]                 $anonfun.this.$outer.$outer().theValue({
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       $anonfun.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction("foo");
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]     <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun.this.$outer
+[INFO]   };
+[INFO]   (new <$anon: Function0>($anonfun.this): Function0)
+[INFO] }).mustEqual({
+[INFO]                   @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]                     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]                       $anonfun.super.<init>();
+[INFO]                       ()
+[INFO]                     };
+[INFO]                     final def apply(): Int = $anonfun.this.apply$mcI$sp();
+[INFO]                     <specialized> def apply$mcI$sp(): Int = 1;
+[INFO]                     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]                     <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun.this.$outer;
+[INFO]                     final <bridge> <artifact> def apply(): Object = scala.Int.box($anonfun.this.apply())
+[INFO]                   };
+[INFO]                   (new <$anon: Function0>($anonfun.this): Function0)
+[INFO]                 })
+[INFO]               };
+[INFO]               <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]               <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun.this.$outer;
+[INFO]               final <bridge> <artifact> def apply(): Object = $anonfun.this.apply()
+[INFO]             };
+[INFO]             (new <$anon: Function0>($anonfun.this): Function0)
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]           $anonfun.this.$outer.inExample("work with objects").in({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]               def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]                 val objects: Array[Object] = scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", new Integer(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag)).$asInstanceOf[Array[Object]]();
+[INFO]                 MyJavaClass.arrayFunction(objects);
+[INFO]                 MyJavaClass.varargsFunction(Array[Object]{objects});
+[INFO]                 MyJavaClass.varargsFunction(objects);
+[INFO]                 $anonfun.this.$outer.$outer().ok()
+[INFO]               };
+[INFO]               <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]               <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun.this.$outer;
+[INFO]               final <bridge> <artifact> def apply(): Object = $anonfun.this.apply()
+[INFO]             };
+[INFO]             (new <$anon: Function0>($anonfun.this): Function0)
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]           $anonfun.this.$outer.inExample("work with Integers").in({
+[INFO]             @SerialVersionUID(value = 0) final <synthetic> class $anonfun extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]               def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]                 $anonfun.super.<init>();
+[INFO]                 ()
+[INFO]               };
+[INFO]               final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]                 val integers: Array[Integer] = scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Integer]{new Integer(1), new Integer(5)}.$asInstanceOf[Array[Object]]()), (ClassTag.apply(classOf[java.lang.Integer]): scala.reflect.ClassTag)).$asInstanceOf[Array[Integer]]();
+[INFO]                 MyJavaClass.arrayFunctionInteger(integers);
+[INFO]                 MyJavaClass.varargsFunctionInteger(integers);
+[INFO]                 $anonfun.this.$outer.$outer().ok()
+[INFO]               };
+[INFO]               <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]               <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun.this.$outer;
+[INFO]               final <bridge> <artifact> def apply(): Object = $anonfun.this.apply()
+[INFO]             };
+[INFO]             (new <$anon: Function0>($anonfun.this): Function0)
+[INFO]           }, matcher.this.MatchResult.matchResultAsResult())
+[INFO]         };
+[INFO]         <synthetic> <paramaccessor> <artifact> private[this] val $outer: com.github.jnh5y.VarArgsTest = _;
+[INFO]         <synthetic> <stable> <artifact> def $outer(): com.github.jnh5y.VarArgsTest = $anonfun.this.$outer;
+[INFO]         final <bridge> <artifact> def apply(): Object = $anonfun.this.apply()
+[INFO]       };
+[INFO]       (new <$anon: Function0>(VarArgsTest.this): Function0)
+[INFO]     });
+[INFO]     def myBadFunction(): Int = return 3
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of               posterasure]] // VarArgsTest.scala: tree is unchanged since erasure
+[INFO] [[syntax trees at end of                  lazyvals]] // VarArgsTest.scala: tree is unchanged since erasure
+[INFO] [[syntax trees at end of                lambdalift]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       ()
+[INFO]     };
+[INFO]     VarArgsTest.this.sequential();
+[INFO]     private[this] val unused: Int = 3;
+[INFO]     <stable> <accessor> def unused(): Int = VarArgsTest.this.unused;
+[INFO]     VarArgsTest.this.described("VarArgs").should({
+[INFO]       (new <$anon: Function0>(VarArgsTest.this): Function0)
+[INFO]     });
+[INFO]     def myBadFunction(): Int = return 3;
+[INFO]     @SerialVersionUID(value = 0) final <synthetic> class $anonfun$1 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]       def <init>($outer: com.github.jnh5y.VarArgsTest): <$anon: Function0> = {
+[INFO]         $anonfun$1.super.<init>();
+[INFO]         ()
+[INFO]       };
+[INFO]       final def apply(): org.specs2.specification.Example = {
+[INFO]         $anonfun$1.this.$outer.inExample("accept singleton or array values").in({
+[INFO]           (new <$anon: Function0>($anonfun$1.this): Function0)
+[INFO]         }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]         $anonfun$1.this.$outer.inExample("work with objects").in({
+[INFO]           (new <$anon: Function0>($anonfun$1.this): Function0)
+[INFO]         }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]         $anonfun$1.this.$outer.inExample("work with Integers").in({
+[INFO]           (new <$anon: Function0>($anonfun$1.this): Function0)
+[INFO]         }, matcher.this.MatchResult.matchResultAsResult())
+[INFO]       };
+[INFO]       <synthetic> <paramaccessor> <artifact> private[this] val $outer: com.github.jnh5y.VarArgsTest = _;
+[INFO]       <synthetic> <stable> <artifact> def $outer(): com.github.jnh5y.VarArgsTest = $anonfun$1.this.$outer;
+[INFO]       final <bridge> <artifact> def apply(): Object = $anonfun$1.this.apply();
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$3 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]         def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]           $anonfun$apply$3.super.<init>();
+[INFO]           ()
+[INFO]         };
+[INFO]         final def apply(): org.specs2.matcher.MatchResult = {
+[INFO]           $anonfun$apply$3.this.$outer.$outer().theValue({
+[INFO]   (new <$anon: Function0>($anonfun$apply$3.this): Function0)
+[INFO] }).mustEqual({
+[INFO]             (new <$anon: Function0>($anonfun$apply$3.this): Function0)
+[INFO]           });
+[INFO]           $anonfun$apply$3.this.$outer.$outer().theValue({
+[INFO]   (new <$anon: Function0>($anonfun$apply$3.this): Function0)
+[INFO] }).mustEqual({
+[INFO]             (new <$anon: Function0>($anonfun$apply$3.this): Function0)
+[INFO]           })
+[INFO]         };
+[INFO]         <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]         <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$3.this.$outer;
+[INFO]         final <bridge> <artifact> def apply(): Object = $anonfun$apply$3.this.apply();
+[INFO]         @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$4 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]           def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]             $anonfun$apply$4.super.<init>();
+[INFO]             ()
+[INFO]           };
+[INFO]           final def apply(): Object = MyJavaClass.arrayFunction(scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", scala.Int.box(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag)).$asInstanceOf[Array[Object]]());
+[INFO]           <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]           <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$4.this.$outer
+[INFO]         };
+[INFO]         @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$1 extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]           def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]             $anonfun$apply$1.super.<init>();
+[INFO]             ()
+[INFO]           };
+[INFO]           final def apply(): Int = $anonfun$apply$1.this.apply$mcI$sp();
+[INFO]           <specialized> def apply$mcI$sp(): Int = 2;
+[INFO]           <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]           <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$1.this.$outer;
+[INFO]           final <bridge> <artifact> def apply(): Object = scala.Int.box($anonfun$apply$1.this.apply())
+[INFO]         };
+[INFO]         @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$5 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]           def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]             $anonfun$apply$5.super.<init>();
+[INFO]             ()
+[INFO]           };
+[INFO]           final def apply(): Object = MyJavaClass.arrayFunction("foo");
+[INFO]           <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]           <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$5.this.$outer
+[INFO]         };
+[INFO]         @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$2 extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]           def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]             $anonfun$apply$2.super.<init>();
+[INFO]             ()
+[INFO]           };
+[INFO]           final def apply(): Int = $anonfun$apply$2.this.apply$mcI$sp();
+[INFO]           <specialized> def apply$mcI$sp(): Int = 1;
+[INFO]           <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]           <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$2.this.$outer;
+[INFO]           final <bridge> <artifact> def apply(): Object = scala.Int.box($anonfun$apply$2.this.apply())
+[INFO]         }
+[INFO]       };
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$6 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]         def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]           $anonfun$apply$6.super.<init>();
+[INFO]           ()
+[INFO]         };
+[INFO]         final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]           val objects: Array[Object] = scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", new Integer(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag)).$asInstanceOf[Array[Object]]();
+[INFO]           MyJavaClass.arrayFunction(objects);
+[INFO]           MyJavaClass.varargsFunction(Array[Object]{objects});
+[INFO]           MyJavaClass.varargsFunction(objects);
+[INFO]           $anonfun$apply$6.this.$outer.$outer().ok()
+[INFO]         };
+[INFO]         <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]         <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$6.this.$outer;
+[INFO]         final <bridge> <artifact> def apply(): Object = $anonfun$apply$6.this.apply()
+[INFO]       };
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$7 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]         def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]           $anonfun$apply$7.super.<init>();
+[INFO]           ()
+[INFO]         };
+[INFO]         final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]           val integers: Array[Integer] = scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Integer]{new Integer(1), new Integer(5)}.$asInstanceOf[Array[Object]]()), (ClassTag.apply(classOf[java.lang.Integer]): scala.reflect.ClassTag)).$asInstanceOf[Array[Integer]]();
+[INFO]           MyJavaClass.arrayFunctionInteger(integers);
+[INFO]           MyJavaClass.varargsFunctionInteger(integers);
+[INFO]           $anonfun$apply$7.this.$outer.$outer().ok()
+[INFO]         };
+[INFO]         <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]         <synthetic> <stable> <artifact> def $outer(): <$anon: Function0> = $anonfun$apply$7.this.$outer;
+[INFO]         final <bridge> <artifact> def apply(): Object = $anonfun$apply$7.this.apply()
+[INFO]       }
+[INFO]     }
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of              constructors]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     private[this] val unused: Int = _;
+[INFO]     <stable> <accessor> def unused(): Int = VarArgsTest.this.unused;
+[INFO]     def myBadFunction(): Int = return 3;
+[INFO]     @SerialVersionUID(value = 0) final <synthetic> class $anonfun$1 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]       final def apply(): org.specs2.specification.Example = {
+[INFO]         $anonfun$1.this.$outer.inExample("accept singleton or array values").in({
+[INFO]           (new <$anon: Function0>($anonfun$1.this): Function0)
+[INFO]         }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]         $anonfun$1.this.$outer.inExample("work with objects").in({
+[INFO]           (new <$anon: Function0>($anonfun$1.this): Function0)
+[INFO]         }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]         $anonfun$1.this.$outer.inExample("work with Integers").in({
+[INFO]           (new <$anon: Function0>($anonfun$1.this): Function0)
+[INFO]         }, matcher.this.MatchResult.matchResultAsResult())
+[INFO]       };
+[INFO]       <synthetic> <paramaccessor> <artifact> private[this] val $outer: com.github.jnh5y.VarArgsTest = _;
+[INFO]       <synthetic> <stable> <artifact> def $outer(): com.github.jnh5y.VarArgsTest = $anonfun$1.this.$outer;
+[INFO]       final <bridge> <artifact> def apply(): Object = $anonfun$1.this.apply();
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$3 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]         final def apply(): org.specs2.matcher.MatchResult = {
+[INFO]           $anonfun$apply$3.this.$outer.$outer().theValue({
+[INFO]   (new <$anon: Function0>($anonfun$apply$3.this): Function0)
+[INFO] }).mustEqual({
+[INFO]             (new <$anon: Function0>($anonfun$apply$3.this): Function0)
+[INFO]           });
+[INFO]           $anonfun$apply$3.this.$outer.$outer().theValue({
+[INFO]   (new <$anon: Function0>($anonfun$apply$3.this): Function0)
+[INFO] }).mustEqual({
+[INFO]             (new <$anon: Function0>($anonfun$apply$3.this): Function0)
+[INFO]           })
+[INFO]         };
+[INFO]         <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]         final <bridge> <artifact> def apply(): Object = $anonfun$apply$3.this.apply();
+[INFO]         @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$4 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]           final def apply(): Object = MyJavaClass.arrayFunction(scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", scala.Int.box(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag)).$asInstanceOf[Array[Object]]());
+[INFO]           def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]             $anonfun$apply$4.super.<init>();
+[INFO]             ()
+[INFO]           }
+[INFO]         };
+[INFO]         @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$1 extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]           final def apply(): Int = $anonfun$apply$1.this.apply$mcI$sp();
+[INFO]           <specialized> def apply$mcI$sp(): Int = 2;
+[INFO]           final <bridge> <artifact> def apply(): Object = scala.Int.box($anonfun$apply$1.this.apply());
+[INFO]           def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]             $anonfun$apply$1.super.<init>();
+[INFO]             ()
+[INFO]           }
+[INFO]         };
+[INFO]         @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$5 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]           final def apply(): Object = MyJavaClass.arrayFunction("foo");
+[INFO]           def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]             $anonfun$apply$5.super.<init>();
+[INFO]             ()
+[INFO]           }
+[INFO]         };
+[INFO]         @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$2 extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]           final def apply(): Int = $anonfun$apply$2.this.apply$mcI$sp();
+[INFO]           <specialized> def apply$mcI$sp(): Int = 1;
+[INFO]           final <bridge> <artifact> def apply(): Object = scala.Int.box($anonfun$apply$2.this.apply());
+[INFO]           def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]             $anonfun$apply$2.super.<init>();
+[INFO]             ()
+[INFO]           }
+[INFO]         };
+[INFO]         def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]           if ($outer.eq(null))
+[INFO]             throw null
+[INFO]           else
+[INFO]             $anonfun$apply$3.this.$outer = $outer;
+[INFO]           $anonfun$apply$3.super.<init>();
+[INFO]           ()
+[INFO]         }
+[INFO]       };
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$6 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]         final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]           val objects: Array[Object] = scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", new Integer(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag)).$asInstanceOf[Array[Object]]();
+[INFO]           MyJavaClass.arrayFunction(objects);
+[INFO]           MyJavaClass.varargsFunction(Array[Object]{objects});
+[INFO]           MyJavaClass.varargsFunction(objects);
+[INFO]           $anonfun$apply$6.this.$outer.$outer().ok()
+[INFO]         };
+[INFO]         <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]         final <bridge> <artifact> def apply(): Object = $anonfun$apply$6.this.apply();
+[INFO]         def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]           if ($outer.eq(null))
+[INFO]             throw null
+[INFO]           else
+[INFO]             $anonfun$apply$6.this.$outer = $outer;
+[INFO]           $anonfun$apply$6.super.<init>();
+[INFO]           ()
+[INFO]         }
+[INFO]       };
+[INFO]       @SerialVersionUID(value = 0) final <synthetic> class $anonfun$apply$7 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]         final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]           val integers: Array[Integer] = scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Integer]{new Integer(1), new Integer(5)}.$asInstanceOf[Array[Object]]()), (ClassTag.apply(classOf[java.lang.Integer]): scala.reflect.ClassTag)).$asInstanceOf[Array[Integer]]();
+[INFO]           MyJavaClass.arrayFunctionInteger(integers);
+[INFO]           MyJavaClass.varargsFunctionInteger(integers);
+[INFO]           $anonfun$apply$7.this.$outer.$outer().ok()
+[INFO]         };
+[INFO]         <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]         final <bridge> <artifact> def apply(): Object = $anonfun$apply$7.this.apply();
+[INFO]         def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]           if ($outer.eq(null))
+[INFO]             throw null
+[INFO]           else
+[INFO]             $anonfun$apply$7.this.$outer = $outer;
+[INFO]           $anonfun$apply$7.super.<init>();
+[INFO]           ()
+[INFO]         }
+[INFO]       };
+[INFO]       def <init>($outer: com.github.jnh5y.VarArgsTest): <$anon: Function0> = {
+[INFO]         if ($outer.eq(null))
+[INFO]           throw null
+[INFO]         else
+[INFO]           $anonfun$1.this.$outer = $outer;
+[INFO]         $anonfun$1.super.<init>();
+[INFO]         ()
+[INFO]       }
+[INFO]     };
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       VarArgsTest.this.sequential();
+[INFO]       VarArgsTest.this.unused = 3;
+[INFO]       VarArgsTest.this.described("VarArgs").should({
+[INFO]         (new <$anon: Function0>(VarArgsTest.this): Function0)
+[INFO]       });
+[INFO]       ()
+[INFO]     }
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of                   flatten]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     private[this] val unused: Int = _;
+[INFO]     <stable> <accessor> def unused(): Int = VarArgsTest.this.unused;
+[INFO]     def myBadFunction(): Int = return 3;
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       VarArgsTest.this.sequential();
+[INFO]       VarArgsTest.this.unused = 3;
+[INFO]       VarArgsTest.this.described("VarArgs").should({
+[INFO]         (new <$anon: Function0>(VarArgsTest.this): Function0)
+[INFO]       });
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$1 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): org.specs2.specification.Example = {
+[INFO]       anonfun$1.this.$outer.inExample("accept singleton or array values").in({
+[INFO]         (new <$anon: Function0>(anonfun$1.this): Function0)
+[INFO]       }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]       anonfun$1.this.$outer.inExample("work with objects").in({
+[INFO]         (new <$anon: Function0>(anonfun$1.this): Function0)
+[INFO]       }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]       anonfun$1.this.$outer.inExample("work with Integers").in({
+[INFO]         (new <$anon: Function0>(anonfun$1.this): Function0)
+[INFO]       }, matcher.this.MatchResult.matchResultAsResult())
+[INFO]     };
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: com.github.jnh5y.VarArgsTest = _;
+[INFO]     <synthetic> <stable> <artifact> def $outer(): com.github.jnh5y.VarArgsTest = anonfun$1.this.$outer;
+[INFO]     final <bridge> <artifact> def apply(): Object = anonfun$1.this.apply();
+[INFO]     def <init>($outer: com.github.jnh5y.VarArgsTest): <$anon: Function0> = {
+[INFO]       if ($outer.eq(null))
+[INFO]         throw null
+[INFO]       else
+[INFO]         anonfun$1.this.$outer = $outer;
+[INFO]       anonfun$1.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$3 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): org.specs2.matcher.MatchResult = {
+[INFO]       anonfun$apply$3.this.$outer.$outer().theValue({
+[INFO]   (new <$anon: Function0>(anonfun$apply$3.this): Function0)
+[INFO] }).mustEqual({
+[INFO]         (new <$anon: Function0>(anonfun$apply$3.this): Function0)
+[INFO]       });
+[INFO]       anonfun$apply$3.this.$outer.$outer().theValue({
+[INFO]   (new <$anon: Function0>(anonfun$apply$3.this): Function0)
+[INFO] }).mustEqual({
+[INFO]         (new <$anon: Function0>(anonfun$apply$3.this): Function0)
+[INFO]       })
+[INFO]     };
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]     final <bridge> <artifact> def apply(): Object = anonfun$apply$3.this.apply();
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       if ($outer.eq(null))
+[INFO]         throw null
+[INFO]       else
+[INFO]         anonfun$apply$3.this.$outer = $outer;
+[INFO]       anonfun$apply$3.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$4 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction(scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", scala.Int.box(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag)).$asInstanceOf[Array[Object]]());
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       anonfun$apply$4.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$1 extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]     final def apply(): Int = anonfun$apply$1.this.apply$mcI$sp();
+[INFO]     <specialized> def apply$mcI$sp(): Int = 2;
+[INFO]     final <bridge> <artifact> def apply(): Object = scala.Int.box(anonfun$apply$1.this.apply());
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       anonfun$apply$1.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$5 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction("foo");
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       anonfun$apply$5.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$2 extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]     final def apply(): Int = anonfun$apply$2.this.apply$mcI$sp();
+[INFO]     <specialized> def apply$mcI$sp(): Int = 1;
+[INFO]     final <bridge> <artifact> def apply(): Object = scala.Int.box(anonfun$apply$2.this.apply());
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       anonfun$apply$2.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$6 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]       val objects: Array[Object] = scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Object]{"foo", new Integer(1)}), (ClassTag.AnyRef(): scala.reflect.ClassTag)).$asInstanceOf[Array[Object]]();
+[INFO]       MyJavaClass.arrayFunction(objects);
+[INFO]       MyJavaClass.varargsFunction(Array[Object]{objects});
+[INFO]       MyJavaClass.varargsFunction(objects);
+[INFO]       anonfun$apply$6.this.$outer.$outer().ok()
+[INFO]     };
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]     final <bridge> <artifact> def apply(): Object = anonfun$apply$6.this.apply();
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       if ($outer.eq(null))
+[INFO]         throw null
+[INFO]       else
+[INFO]         anonfun$apply$6.this.$outer = $outer;
+[INFO]       anonfun$apply$6.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$7 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]       val integers: Array[Integer] = scala.Array.apply(scala.this.Predef.wrapRefArray(Array[Integer]{new Integer(1), new Integer(5)}.$asInstanceOf[Array[Object]]()), (ClassTag.apply(classOf[java.lang.Integer]): scala.reflect.ClassTag)).$asInstanceOf[Array[Integer]]();
+[INFO]       MyJavaClass.arrayFunctionInteger(integers);
+[INFO]       MyJavaClass.varargsFunctionInteger(integers);
+[INFO]       anonfun$apply$7.this.$outer.$outer().ok()
+[INFO]     };
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]     final <bridge> <artifact> def apply(): Object = anonfun$apply$7.this.apply();
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       if ($outer.eq(null))
+[INFO]         throw null
+[INFO]       else
+[INFO]         anonfun$apply$7.this.$outer = $outer;
+[INFO]       anonfun$apply$7.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of                     mixin]] // VarArgsTest.scala: tree is unchanged since flatten
+[INFO] [[syntax trees at end of                   cleanup]] // VarArgsTest.scala
+[INFO] package com.github.jnh5y {
+[INFO]   @org.junit.runner.RunWith(value = classOf[org.specs2.runner.JUnitRunner]) class VarArgsTest extends org.specs2.mutable.Specification {
+[INFO]     private[this] val unused: Int = _;
+[INFO]     <stable> <accessor> def unused(): Int = VarArgsTest.this.unused;
+[INFO]     def myBadFunction(): Int = return 3;
+[INFO]     def <init>(): com.github.jnh5y.VarArgsTest = {
+[INFO]       VarArgsTest.super.<init>();
+[INFO]       VarArgsTest.this.sequential();
+[INFO]       VarArgsTest.this.unused = 3;
+[INFO]       VarArgsTest.this.described("VarArgs").should({
+[INFO]         (new <$anon: Function0>(VarArgsTest.this): Function0)
+[INFO]       });
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$1 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): org.specs2.specification.Example = {
+[INFO]       anonfun$1.this.$outer.inExample("accept singleton or array values").in({
+[INFO]         (new <$anon: Function0>(anonfun$1.this): Function0)
+[INFO]       }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]       anonfun$1.this.$outer.inExample("work with objects").in({
+[INFO]         (new <$anon: Function0>(anonfun$1.this): Function0)
+[INFO]       }, matcher.this.MatchResult.matchResultAsResult());
+[INFO]       anonfun$1.this.$outer.inExample("work with Integers").in({
+[INFO]         (new <$anon: Function0>(anonfun$1.this): Function0)
+[INFO]       }, matcher.this.MatchResult.matchResultAsResult())
+[INFO]     };
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: com.github.jnh5y.VarArgsTest = _;
+[INFO]     <synthetic> <stable> <artifact> def $outer(): com.github.jnh5y.VarArgsTest = anonfun$1.this.$outer;
+[INFO]     final <bridge> <artifact> def apply(): Object = anonfun$1.this.apply();
+[INFO]     def <init>($outer: com.github.jnh5y.VarArgsTest): <$anon: Function0> = {
+[INFO]       if ($outer.eq(null))
+[INFO]         throw null
+[INFO]       else
+[INFO]         anonfun$1.this.$outer = $outer;
+[INFO]       anonfun$1.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$3 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): org.specs2.matcher.MatchResult = {
+[INFO]       anonfun$apply$3.this.$outer.$outer().theValue({
+[INFO]   (new <$anon: Function0>(anonfun$apply$3.this): Function0)
+[INFO] }).mustEqual({
+[INFO]         (new <$anon: Function0>(anonfun$apply$3.this): Function0)
+[INFO]       });
+[INFO]       anonfun$apply$3.this.$outer.$outer().theValue({
+[INFO]   (new <$anon: Function0>(anonfun$apply$3.this): Function0)
+[INFO] }).mustEqual({
+[INFO]         (new <$anon: Function0>(anonfun$apply$3.this): Function0)
+[INFO]       })
+[INFO]     };
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]     final <bridge> <artifact> def apply(): Object = anonfun$apply$3.this.apply();
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       if ($outer.eq(null))
+[INFO]         throw null
+[INFO]       else
+[INFO]         anonfun$apply$3.this.$outer = $outer;
+[INFO]       anonfun$apply$3.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$4 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction(Array[Object]{"foo", scala.Int.box(1)}.$asInstanceOf[Array[Object]]());
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       anonfun$apply$4.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$1 extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]     final def apply(): Int = anonfun$apply$1.this.apply$mcI$sp();
+[INFO]     <specialized> def apply$mcI$sp(): Int = 2;
+[INFO]     final <bridge> <artifact> def apply(): Object = scala.Int.box(anonfun$apply$1.this.apply());
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       anonfun$apply$1.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$5 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): Object = MyJavaClass.arrayFunction("foo");
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       anonfun$apply$5.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$2 extends scala.runtime.AbstractFunction0$mcI$sp with Serializable {
+[INFO]     final def apply(): Int = anonfun$apply$2.this.apply$mcI$sp();
+[INFO]     <specialized> def apply$mcI$sp(): Int = 1;
+[INFO]     final <bridge> <artifact> def apply(): Object = scala.Int.box(anonfun$apply$2.this.apply());
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       anonfun$apply$2.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$6 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]       val objects: Array[Object] = Array[Object]{"foo", new Integer(1)}.$asInstanceOf[Array[Object]]();
+[INFO]       MyJavaClass.arrayFunction(objects);
+[INFO]       MyJavaClass.varargsFunction(Array[Object]{objects});
+[INFO]       MyJavaClass.varargsFunction(objects);
+[INFO]       anonfun$apply$6.this.$outer.$outer().ok()
+[INFO]     };
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]     final <bridge> <artifact> def apply(): Object = anonfun$apply$6.this.apply();
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       if ($outer.eq(null))
+[INFO]         throw null
+[INFO]       else
+[INFO]         anonfun$apply$6.this.$outer = $outer;
+[INFO]       anonfun$apply$6.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   };
+[INFO]   @SerialVersionUID(value = 0) final <synthetic> class anonfun$apply$7 extends scala.runtime.AbstractFunction0 with Serializable {
+[INFO]     final def apply(): org.specs2.matcher.MatchSuccess = {
+[INFO]       val integers: Array[Integer] = Array[Integer]{new Integer(1), new Integer(5)}.$asInstanceOf[Array[Object]]().$asInstanceOf[Array[Integer]]();
+[INFO]       MyJavaClass.arrayFunctionInteger(integers);
+[INFO]       MyJavaClass.varargsFunctionInteger(integers);
+[INFO]       anonfun$apply$7.this.$outer.$outer().ok()
+[INFO]     };
+[INFO]     <synthetic> <paramaccessor> <artifact> private[this] val $outer: <$anon: Function0> = _;
+[INFO]     final <bridge> <artifact> def apply(): Object = anonfun$apply$7.this.apply();
+[INFO]     def <init>($outer: <$anon: Function0>): <$anon: Function0> = {
+[INFO]       if ($outer.eq(null))
+[INFO]         throw null
+[INFO]       else
+[INFO]         anonfun$apply$7.this.$outer = $outer;
+[INFO]       anonfun$apply$7.super.<init>();
+[INFO]       ()
+[INFO]     }
+[INFO]   }
+[INFO] }
+[INFO] 
+[INFO] [[syntax trees at end of                delambdafy]] // VarArgsTest.scala: tree is unchanged since cleanup
+[INFO] [[syntax trees at end of                     icode]] // VarArgsTest.scala: tree is unchanged since cleanup
+[INFO] [[syntax trees at end of                       jvm]] // VarArgsTest.scala: tree is unchanged since cleanup
+[INFO] prepare-compile in 0 s
+[INFO] compile in 3 s
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ scala-varags ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ scala-varags ---
+[INFO] Surefire report directory: /opt/devel/src/scala-varags/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.jnh5y.VarArgsTest
+Called arrayFunction with 2 inputs.
+  Object 0:foo
+  Object 1:1
+Called arrayFunction with 1 inputs.
+  Object 0:foo
+Called arrayFunction with 2 inputs.
+  Object 0:foo
+  Object 1:1
+Called varargsFunction with 1 inputs.
+  Object 0:[Ljava.lang.Object;@2c7b5824
+Called varargsFunction with 2 inputs.
+  Object 0:foo
+  Object 1:1
+Called arrayFunctionInteger with 2 inputs.
+  Object 0:1
+  Object 1:5
+Called varargsFunctionInteger with 2 inputs.
+  Object 0:1
+  Object 1:5
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.727 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.791 s
+[INFO] Finished at: 2021-03-11T20:41:57Z
+[INFO] ------------------------------------------------------------------------

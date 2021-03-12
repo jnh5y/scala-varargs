@@ -4,16 +4,31 @@ import org.junit.runner.RunWith
 import org.specs2.mutable.Specification
 import org.specs2.runner.JUnitRunner
 
+import scala.AnyRef
+
 @RunWith(classOf[JUnitRunner])
-class VarArgsTest extends Specification {
+class VarArgs2Test extends Specification {
+
+//  def func(inputs: Array[Object]) = {
+//    println(s" Received ${inputs.size} inputs!")
+//    inputs.foreach { println }
+//    inputs.size
+//  }
+
+  def func(inputs: Object*) = {
+    println(s" Received ${inputs.size} inputs!")
+    inputs.foreach { println }
+    inputs.size
+  }
+
   sequential
 
   val unused = 3
 
   "VarArgs" should {
     "accept singleton or array values" in {
-      MyJavaClass.arrayFunction(Array[AnyRef]("foo", Int.box(1))) mustEqual 2
-      MyJavaClass.arrayFunction("foo") mustEqual 1
+      func(Array[AnyRef]("foo", Int.box(1))) mustEqual 2
+      func("foo") mustEqual 1
     }
 
     "work with objects" in {
